@@ -1,0 +1,14 @@
+{
+  "name": "esp_fc2_ref",
+  "version": "1.0.0",
+  "description": "",
+  "main": "book.js",
+  "scripts": {
+    "serve": "node ./../../../devtools/hdocserver/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-it-container": "^3.0.0"
+  }
+}
