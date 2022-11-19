@@ -4,7 +4,7 @@
   "description": "",
   "main": "book.js",
   "scripts": {
-    "serve": "node ./../../../devtools/hdocserver/server.js"
+    "serve": "node ./../../build/devtools/hdocserver/server.js"
   },
   "author": "",
   "license": "ISC",
