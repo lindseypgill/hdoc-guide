@@ -80,8 +80,20 @@
                         ]
                     },
                     {
+                        "text": "Writing & Content Style Guide",
+                        "link": "hdoc-guide/writing-style-guide"
+                    },
+                    {
                         "text": "Other Useful Resources",
                         "link": "hdoc-guide/additional-resources"
+                    },
+                    {
+                        "text": "Attribution & Thanks",
+                        "link": "hdoc-guide/attribution"
+                    },
+                    {
+                        "text": "*TODO*",
+                        "link": "hdoc-guide/todo"
                     }
                 ]
             }
