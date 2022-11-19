@@ -19,7 +19,7 @@ module.exports = {
               text: 'Concepts', 
               expand: true,
               items: [
-                { text: 'Overview', link: docId + '/workflow' },
+                { text: 'Overview', link: docId + '/overview' },
                 { text: 'HDocBook', link: docId + '/concepts/hdocbook'},
                 { text: 'Library', link: docId + '/concepts/library'},
                 { text: 'Publishing', link: docId + '/concepts/publishing'}

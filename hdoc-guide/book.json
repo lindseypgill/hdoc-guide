@@ -3,92 +3,88 @@
     "title": "Hornbill Docs Contributor Guide",
     "description": "Information about developing and publishing documentation on Hornbill Docs (docs.hornbill.com) website",
     "version": "1.0.0",
-    "themeConfig": {
-        "logo": "images/logo.png",
-        "siteTitle": false,
-        "sidebar": {
-            "/": [
-                {
-                    "text": "Introduction",
-                    "expand": true,
-                    "items": [
-                        {
-                            "text": "Welcome",
-                            "link": "hdoc-guide/index"
-                        },
-                        {
-                            "text": "Concepts",
-                            "expand": true,
-                            "items": [
-                                {
-                                    "text": "Overview",
-                                    "link": "hdoc-guide/overview"
-                                },
-                                {
-                                    "text": "HDocBook",
-                                    "link": "hdoc-guide/concepts/hdocbook"
-                                },
-                                {
-                                    "text": "Library",
-                                    "link": "hdoc-guide/concepts/library"
-                                },
-                                {
-                                    "text": "Publishing",
-                                    "link": "hdoc-guide/concepts/publishing"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "Getting Started",
-                            "expand": true,
-                            "items": [
-                                {
-                                    "text": "1. Create a GitHub Account",
-                                    "link": "hdoc-guide/getting-started/github"
-                                },
-                                {
-                                    "text": "2. Install HDocBook Tools",
-                                    "link": "hdoc-guide/getting-started/tools"
-                                },
-                                {
-                                    "text": "3. Clone A Book Repository",
-                                    "link": "hdoc-guide/getting-started/clone-repo"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "HDocBook Reference",
-                            "expand": true,
-                            "items": [
-                                {
-                                    "text": "Specification",
-                                    "link": "hdoc-guide/hdocbook/specification"
-                                },
-                                {
-                                    "text": "Markdown",
-                                    "link": "hdoc-guide/hdocbook/markdown"
-                                },
-                                {
-                                    "text": "Layout Templates",
-                                    "link": "hdoc-guide/hdocbook/layout-templates"
-                                },
-                                {
-                                    "text": "Frontmatter",
-                                    "link": "hdoc-guide/hdocbook/frontmatter"
-                                },
-                                {
-                                    "text": "Server Variables",
-                                    "link": "hdoc-guide/hdocbook/server-variables"
-                                }
-                            ]
-                        },
-                        {
-                            "text": "Other Useful Resources",
-                            "link": "hdoc-guide/additional-resources"
-                        }
-                    ]
-                }
-            ]
-        }
+    "navigation": {
+        "items": [
+            {
+                "text": "Introduction",
+                "expand": true,
+                "items": [
+                    {
+                        "text": "Welcome",
+                        "link": "hdoc-guide/index"
+                    },
+                    {
+                        "text": "Concepts",
+                        "expand": true,
+                        "items": [
+                            {
+                                "text": "Overview",
+                                "link": "hdoc-guide/overview"
+                            },
+                            {
+                                "text": "HDocBook",
+                                "link": "hdoc-guide/concepts/hdocbook"
+                            },
+                            {
+                                "text": "Library",
+                                "link": "hdoc-guide/concepts/library"
+                            },
+                            {
+                                "text": "Publishing",
+                                "link": "hdoc-guide/concepts/publishing"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Getting Started",
+                        "expand": true,
+                        "items": [
+                            {
+                                "text": "1. Create a GitHub Account",
+                                "link": "hdoc-guide/getting-started/github"
+                            },
+                            {
+                                "text": "2. Install HDocBook Tools",
+                                "link": "hdoc-guide/getting-started/tools"
+                            },
+                            {
+                                "text": "3. Clone A Book Repository",
+                                "link": "hdoc-guide/getting-started/clone-repo"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "HDocBook Reference",
+                        "expand": true,
+                        "items": [
+                            {
+                                "text": "Specification",
+                                "link": "hdoc-guide/hdocbook/specification"
+                            },
+                            {
+                                "text": "Markdown",
+                                "link": "hdoc-guide/hdocbook/markdown"
+                            },
+                            {
+                                "text": "Layout Templates",
+                                "link": "hdoc-guide/hdocbook/layout-templates"
+                            },
+                            {
+                                "text": "Frontmatter",
+                                "link": "hdoc-guide/hdocbook/frontmatter"
+                            },
+                            {
+                                "text": "Server Variables",
+                                "link": "hdoc-guide/hdocbook/server-variables"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Other Useful Resources",
+                        "link": "hdoc-guide/additional-resources"
+                    }
+                ]
+            }
+        ]
     }
 }
