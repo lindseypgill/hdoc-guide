@@ -40,16 +40,16 @@
                         "expand": true,
                         "items": [
                             {
-                                "text": "1. Create a GitHub Account",
-                                "link": "hdoc-guide/getting-started/github"
+                                "text": "How Contributing Works",
+                                "link": "hdoc-guide/getting-started/how-it-works"
                             },
                             {
-                                "text": "2. Install HDocBook Tools",
-                                "link": "hdoc-guide/getting-started/tools"
+                                "text": "Simple Edits Workflow",
+                                "link": "hdoc-guide/getting-started/simple-edits"
                             },
                             {
-                                "text": "3. Clone A Book Repository",
-                                "link": "hdoc-guide/getting-started/clone-repo"
+                                "text": "Complex Edits Workflow",
+                                "link": "hdoc-guide/getting-started/complex-edits"
                             }
                         ]
                     },
