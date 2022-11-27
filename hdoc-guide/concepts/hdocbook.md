@@ -16,10 +16,15 @@ Developing content for the Hornbill Docs system is supported with development to
 All books have a number of immutable characteristics including a Globally Unique Identifier (called a slug), A Title, A Summery Description, A Table of Contents, as well as metadata that defines/controls publishing and presentation options, as well as information that helps organize Books into a structured taxonomy. 
 
 ### Book Unique Identifier (slug)
-Each book is allocated a unique identifier, this is in the form of a lower-case-multi-word-hyphen-separated text string. When consuming the content pages of the book, this slug is always included in the URL when accessing the book content, so forms part of the final SEO optimization relation to search engine crawling and content location. 
+Each book is allocated a unique identifier, this is in the form of a lower-case-multi-word-hyphen-separated text string. When consuming the content pages of the book, this slug is always included in the URL when accessing the book content, so forms part of the final SEO optimization in relation to the search engine, crawling and final content location URL. 
 
 ### Book Content
-Document content is written in "Markdown" which provides a complete separation of concerns between content and presentation.  Markdown is a simple plain text scheme for marking up a document that can be rendered in a browser on PDF document.  Using Markdown ensures that content writers can focus on content and not have to worry about presentation and design issues such as fonts, colors, page alignment and so on.   There are mor advanced options to use HTML and inline CSS to create custom layouts and presentations, but this is encouraged only for very special situation where markdown is simply not an option.  The markdown syntax is based on the CommonMark standard, but HDocBook also includes additional custom elements that are specialized for this type of documentation content.
+Document content is written in [Markdown]({{BASE_PATH}}/hdocbook/markdown). Markdown is a plain text-base
+content writing system that uses very simple markup to control aspects of page layout and presentation, while at the same time provides a complete separation of concerns between content and presentation. 
+
+Markdown is a simple plain text scheme for marking up a document, that document can then be rendered web pages, PDF or other formats on many different device and screen types.   Using Markdown ensures that content writers can focus on content and not have to worry about presentation and design issues such as fonts, colors, page alignment and so on. 
+
+If required, there are mor advanced options to use HTML and inline CSS instead of Markdown to create custom layouts and presentations, but this is encouraged only for very special situation where Markdown is simply not an option.  The markdown syntax is based on the [CommonMark](https://commonmark.org/) standard, but the HDocBook specification also includes additional custom elements that are specialized for this type of documentation content rendering.
 
 ### Table of Content
 A Book includes the definition of a table of content, which is presented as left left-hand navigation panel of links to pages, the table of contenTs can be a simple vertical list of links, or, can be a hierarchical tree of up to three levels deep leading to links.  An entry in the table of contents tree can either be an expand/collapsible "group of items" - OR - an item, which is link to an article and/or page anchor.
