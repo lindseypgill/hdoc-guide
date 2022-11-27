@@ -2,6 +2,7 @@
     "docId": "hdoc-guide",
     "title": "Hornbill Docs Contributor Guide",
     "description": "Information about developing and publishing documentation on Hornbill Docs (docs.hornbill.com) website",
+    "publicSource": "https://github.com/Hornbill-Docs/hdoc-guide",
     "version": "1.0.0",
     "navigation": {
         "items": [
@@ -28,11 +29,11 @@
                         ]
                     },
                     {
-                        "text": "Getting Started",
+                        "text": "Contribution Guide",
                         "expand": true,
                         "items": [
                             {
-                                "text": "How Contributing Works",
+                                "text": "How It Works",
                                 "link": "hdoc-guide/getting-started/how-it-works"
                             },
                             {
@@ -58,7 +59,7 @@
                                 "link": "hdoc-guide/hdocbook/markdown"
                             },
                             {
-                                "text": "Layout Templates",
+                                "text": "Content Layout Templates",
                                 "link": "hdoc-guide/hdocbook/layout-templates"
                             },
                             {
@@ -72,7 +73,7 @@
                         ]
                     },
                     {
-                        "text": "Writing & Content Style Guide",
+                        "text": "Content Style Guide",
                         "link": "hdoc-guide/writing-style-guide"
                     },
                     {

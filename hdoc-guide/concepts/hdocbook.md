@@ -26,11 +26,11 @@ Markdown is a simple plain text scheme for marking up a document, that document 
 
 If required, there are mor advanced options to use HTML and inline CSS instead of Markdown to create custom layouts and presentations, but this is encouraged only for very special situation where Markdown is simply not an option.  The markdown syntax is based on the [CommonMark](https://commonmark.org/) standard, but the HDocBook specification also includes additional custom elements that are specialized for this type of documentation content rendering.
 
-### Table of Content
+### Table of Contents
 A Book includes the definition of a table of content, which is presented as left left-hand navigation panel of links to pages, the table of contenTs can be a simple vertical list of links, or, can be a hierarchical tree of up to three levels deep leading to links.  An entry in the table of contents tree can either be an expand/collapsible "group of items" - OR - an item, which is link to an article and/or page anchor.
 
-### Anchor Link Table
-For larger articles, where the content spans multiple screen pages, it is possible to enable an Article Anchor Link Table.  This table is automatically generated to include anchor links to all H2 and H3 content headings that have been written into the document. 
+### Anchor Shortcut Table
+For larger articles, where the content spans multiple screen pages, it is possible to enable an Article Anchor Link Shortcut Table.  This table appears to the top-right of the content page, and is automatically generated to include anchor links to all H2 and H3 content headings that have been written into the document. 
 
 ### Access Controls
 A Book includes metadata and options that allow you to control who should be able to see the document. These access controls make it possible to give different people different levels of visibility/access to documentation, all through the same documentation web site. 

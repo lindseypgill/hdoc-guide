@@ -11,7 +11,7 @@ not specified, then the default layout is set to **article**
 
 The content layout UI is responsive inasmuch as it will adapt as best it can to difference size device screens. Elements of that layout are adjusted/shown/hidden as required to get the best reading experience at any given screen resolution and screen orientation. 
 
-## Content Layout Templates
+## Available Layout Templates
 
 You can specify the 'layout' property of each article to be any one of the following. The preview in the table below shows you how the article content will be laid out when rendered into the above content layout.  If you do not specify a layout in the article frontmatter section, then the default `article` layout will be used. 
 
