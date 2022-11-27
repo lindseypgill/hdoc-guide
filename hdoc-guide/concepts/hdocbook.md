@@ -37,4 +37,3 @@ A Book includes metadata and options that allow you to control who should be abl
 
 ### Internationalization 
 Books may contain pages for multiple languages if required, this is achieved by writing the main page in the default language (English), and then, you can write one or more language variants of each page. 
-
