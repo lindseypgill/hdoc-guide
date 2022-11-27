@@ -1,3 +1,0 @@
-# Hornbill Docs - Publishing
-
-TODO: ...

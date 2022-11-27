@@ -24,14 +24,6 @@
                             {
                                 "text": "HDocBook",
                                 "link": "hdoc-guide/concepts/hdocbook"
-                            },
-                            {
-                                "text": "Library",
-                                "link": "hdoc-guide/concepts/library"
-                            },
-                            {
-                                "text": "Publishing",
-                                "link": "hdoc-guide/concepts/publishing"
                             }
                         ]
                     },
