@@ -20,8 +20,10 @@ You should install the following Visual Studio Code extensions. To see how, see 
 
 There are many such extension so if you are familiar with VS Code you may choose other extensions if they better suit your needs. 
 
-; [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) by Street Side Software
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) by Street Side Software
   * Gives you spell checking and highlighting
+* [Word Count]() by Microsoft
+  * Provides a useful count of words in your current document
 * [Preview](https://marketplace.visualstudio.com/items?itemName=searKing.preview-vscode) by Haixan Chen
   * Gives you Markdown preview capability. 
 * [SVC Previewer](https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer) by Vitalii Mazurenko  
@@ -30,10 +32,14 @@ There are many such extension so if you are familiar with VS Code you may choose
 ## Installing HDocBook Tools
 HDocBook Tools is a simple command-line tool you install on your system, it requires Node.js to be installed on your system.  This tool is developed and maintained by Hornbill and provides you with a local preview server functionality as well as other functions to help you with content development. 
 
-You can install the Hornbill HDocBook tools using Node package manager tool, and typing in the following command. This installs the tools globally to your Node.js installation making the `hdoc` CLI tool available to you to use.  
+You can install the Hornbill HDocBook tools using Node package manager. From a command-line simply type the following command and press Enter. This installs the tools globally to your Node.js installation, making the `hdoc` CLI tool available to you to use.  
 
 ```bash
 npm install hdoc-tools -g
 ```
 
-## 
+## Getting The HDocBook to work on
+There are a number of stages to this step.
+
+### Step 1 - Fork Your Copy
+In order to contribute to a HDocBook you are required to first make a copy of the repository. In essence, forking a repository means "Make a copy of this repository in my local account" 
