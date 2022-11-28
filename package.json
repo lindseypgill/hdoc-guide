@@ -1,14 +1,12 @@
 {
-  "name": "esp_fc2_ref",
-  "version": "1.0.0",
+  "name": "hdoc-guide",
+  "version": "0.1.0",
   "description": "",
-  "main": "book.js",
+  "main": "hdocbook.js",
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "markdown-it-container": "^3.0.0"
   },
   "dependencies": {
-    "hdoc-tools": "^0.3.0"
   }
 }
