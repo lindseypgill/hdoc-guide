@@ -41,5 +41,26 @@ npm install hdoc-tools -g
 ## Getting The HDocBook to work on
 There are a number of stages to this step.
 
-### Step 1 - Fork Your Copy
-In order to contribute to a HDocBook you are required to first make a copy of the repository. In essence, forking a repository means "Make a copy of this repository in my local account" 
+#### Step 1 - Choose The Document To Contribute
+Browse Hornbill Docs GitHub account here: [Hornbill-Docs](https://github.com/Hornbill-Docs) and locate the document you wish to contribute to. 
+
+#### Step 2 - Fork Your Copy on GitHup
+In order to contribute to a HDocBook you are required to first make a copy of the HDocBook repository. In essence, forking a repository means "Make a copy of this repository into your personal account GitHub account".
+
+#### Step 3 - Clone Your Copy To Your Local Computer
+To start editing the HDocBook you need to make a clone of the HDocBook from your personal GitHub account.  Follow the steps below: -
+
+* On your computer, create a folder in your home directory called "hornbill-docs"
+* Open a terminal window in that folder and type the command 
+        <br><br>`git clone [your cloned HDocBook url]`<br><br>
+
+#### Step 4 - Clone Your Copy To Your Local Computer
+You now should have a local working copy of the HDocBook, now you are ready to start editing.
+
+* Open the folder your HDocBook is in with ***Visual Studio Code***
+* Edit your document(s) content as required
+
+#### Step 5 - Save Your Edits
+Onc#e you have finished making edits, you should use VS Code's built in compatibility with GitHub to commit and push your changes back to your personal GitHub account's copy of the HDocBook.  
+
+
