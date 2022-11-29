@@ -33,7 +33,7 @@ This file contains configuration settings used by the supporting hdocbook develo
 
 ## hdocbook.json file
 
-Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provides information needed to describe the HDocBook, its navigation, keywords and taxonomy metadata and so on.  The following proprties are defined at the top-level of this file
+Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provides information needed to describe the HDocBook, its navigation, keywords and taxonomy metadata and so on.  The following properties are defined at the top-level of this file
 
 |Property|Description|
 |:---|:---|
