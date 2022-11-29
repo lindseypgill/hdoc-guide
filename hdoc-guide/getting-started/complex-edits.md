@@ -61,6 +61,7 @@ You now should have a local working copy of the HDocBook, now you are ready to s
 * Edit your document(s) content as required
 
 #### Step 5 - Save Your Edits
-Onc#e you have finished making edits, you should use VS Code's built in compatibility with GitHub to commit and push your changes back to your personal GitHub account's copy of the HDocBook.  
+Once you have finished making edits, you should use VS Code's built in compatibility with GitHub to commit and push your changes back to your personal GitHub account's copy of the HDocBook.  
 
-
+#### Step 6 - Create Pull Request
+Because your local repo is a Clone of the master repo for the document, you are able to use Git yo create a Pull Request. This will take your changes and push them back up to the master repo on GitHub as a Pull Request, notifying the Hornbill Docs team that you have requested a change to the document.  The Hornbill Docs will review the proposed changes in your Pull Request(s) and apply to the master repo ready for the next document build/publish cycle. 
