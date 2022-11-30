@@ -54,11 +54,14 @@ To start editing the HDocBook you need to make a clone of the HDocBook from your
 * Open a terminal window in that folder and type the command 
         <br><br>`git clone [your cloned HDocBook url]`<br><br>
 
-#### Step 4 - Clone Your Copy To Your Local Computer
-You now should have a local working copy of the HDocBook, now you are ready to start editing.
+#### Step 4 - Run the Preview Server
+Inside Visual Studio Code open a terminal window and type the command `hdoc serve` and the preview server should start. Now open a web browser and enter the URL http://127.0.0.1:3000/ and you should be presented with a preview of the document
 
-* Open the folder your HDocBook is in with ***Visual Studio Code***
-* Edit your document(s) content as required
+::: note
+Currently the content in the browser with the preview server DOES NOT auto refresh as you edit the content. To see changes in the pgae you are viewing or in the navigation you will need to refresh the browser page
+:::
+
+Edit the document(s) content as required
 
 #### Step 5 - Save Your Edits
 Once you have finished making edits, you should use VS Code's built in compatibility with GitHub to commit and push your changes back to your personal GitHub account's copy of the HDocBook.  
