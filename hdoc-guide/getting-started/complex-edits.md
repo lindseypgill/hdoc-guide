@@ -63,6 +63,11 @@ Currently the content in the browser with the preview server DOES NOT auto refre
 
 Edit the document(s) content as required
 
+::: tip
+To see the basic statistics of the document, including file count and total word count, in the terminal window you can type `hdoc stats`. To get more verbose breakdown of the stats you can run the command `hdoc stats -v`
+:::
+
+
 #### Step 5 - Save Your Edits
 Once you have finished making edits, you should use VS Code's built in compatibility with GitHub to commit and push your changes back to your personal GitHub account's copy of the HDocBook.  
 
