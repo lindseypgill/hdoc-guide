@@ -73,8 +73,17 @@
                         ]
                     },
                     {
-                        "text": "Content Style Guide",
-                        "link": "hdoc-guide/writing-style-guide"
+                        "text": "Contributing",
+                        "items": [
+                            {
+                                "text": "Code of Conduct",
+                                "link": "hdoc-guide/contributing/code-of-conduct"
+                            },
+                            {
+                                "text": "Content Writing & Style Guide",
+                                "link": "hdoc-guide/writing-style-guide"
+                            }
+                        ]
                     },
                     {
                         "text": "Other Useful Resources",
