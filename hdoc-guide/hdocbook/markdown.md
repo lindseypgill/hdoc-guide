@@ -73,15 +73,13 @@ Dangerous consequences of an action.
 
 ## Angle Brackets
 
-If you need to use angle brackets &lt;&gt; in your text, you need to encode these using the stamdard
+If you need to use angle brackets &lt;&gt; in your text, you need to encode these using standard
 HTML entity encoding. 
 
 ```md
 &lt;between&gt;
 ```
-will render:  &lt;between&gt;
-
-<hr>
+will render: &lt;between&gt;
 
 ## Blockquotes
 
@@ -94,8 +92,6 @@ Blockquotes are created using the `>` character:
 The preceding example renders as follows:
 
 > This is a blockquote. It is usually rendered indented and with a different background color.
-
-<hr>
 
 ## Bold and italic text
 
@@ -134,8 +130,7 @@ Hornbill Docs supports six levels of headings specified with 1 through 6 hash `#
 The above markdown will render like this. 
 
 # Heading 1 (H1)
-<h2 class="no-auto-anchor">Heading 2 (H2)</h2>
-
+## Heading 2 (H2)
 ### Heading 3 (H3)
 #### Heading 4 (H4)
 ##### Heading 5 (H5)
@@ -149,7 +144,7 @@ The above markdown will render like this.
 :::
 
 ## HTML
-Markdown supports inline HTML. As a general rule, HTML is recommended for publishing to Hornbill Docs, but it may be useful in very limited situation. Basically avoid using inline HTML to the greatest extent possible.
+Markdown supports inline HTML. As a general rule, HTML is not recommended for publishing to Hornbill Docs, but it may be useful in very limited situation. Basically, you should avoid using inline HTML to the greatest extent possible.
 
 ## Images
 The following image types are supported.  
@@ -165,4 +160,3 @@ The basic Markdown syntax you should use to embed an image in your content is:
 ``` md
 [Alt Text](/path/to/image.jpg)
 ```
-
