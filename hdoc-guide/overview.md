@@ -13,11 +13,11 @@ As well as basic writing skills and requisite subject matter expertise, writing 
 
 In order to get the best quality and consistency of documentation on Hornbill Docs there is a well defined workflow, supported by guidelines, specifications and tools all designed to make the process and easy and repeatable as possible, by multiple authors, even if they do not work together.  This consistency in approach and tooling is required because we wish to encourage the broadest possible audience to help us develop and expand the documentation that helps our user community get the very best out of Hornbill's software. 
 
-There are three key stages in the document publishing lifecycle explained here.  The architecture diagram shows you the workflow, which is broken down into these distinct steps.  Contributors to the Hornbill Docs content only need to be concerned with the Content Development step, but the full workflow cycle is explained here for content, helping you to understand how the Content Development workflow fits into the creation to consumption process. 
+There are three key stages in the document publishing lifecycle explained here.  The architecture diagram shows you the workflow, which is broken down into these distinct steps.  Contributors to the Hornbill Docs content only need to be concerned with the Content Development step, but the full workflow cycle is explained here for context, helping you to understand how the Content Development workflow fits into the creation to consumption process. 
 
 ## 1. Content Development
 
-The primary capability of any documentation system is the ability to facilitate the creation of content. When developing Hornbill Docs content, your work unit is a HDocBook. Each Book is a separate/stand-alone project.  The source content for a Book is simply made up of a folder structure containing a any number of documents which can be authored in markdown, or as custom HTML. This structure is called HDocBook. The workload for content creation is designed around standard, easy to use development tools, plugins and the ability to accurately preview your content during the content development process.  For some documentation, for example API's and other content that is defined in metadata such as XML, JSON or document extracted from source code comments or markup, can be sources used to automatically generate documentation content.  
+The primary capability of any documentation system is the ability to facilitate the creation of content. When developing Hornbill Docs content, your work unit is a **HDocBook**. Each Book is a separate, stand-alone project.  The source content for a Book is simply made up of a folder structure containing a any number of documents which can be authored in markdown, or as custom HTML. This structure is called HDocBook. The workload for content creation is designed around standard, easy to use development tools, plugins and the ability to accurately preview your content during the content development process.  For some documentation, for example API's and other content that is defined in metadata such as XML, JSON or document extracted from source code comments or markup, can be sources used to automatically generate documentation content.  
 
 ## 2. Build & Publish
 
@@ -25,8 +25,4 @@ Publishing a Book involves building the document source, rendering markdown into
 
 ## 3. Consumption
 
-Consuming documentation is really describing the implementation of the web server and the Docs UI Web App that makes up the website https://docs.hornbill.com that all published documentation is consumed.  The web sit provides the ability to browse the book library, browse and search for content etc. 
-
-
-
-
+Consuming documentation is really describing the implementation of the web server and the Docs UI Web App that makes up the [website](https://docs.hornbill.com) that all published documentation is consumed from.  The website provides the ability to browse the book library, browse and search for content etc. 

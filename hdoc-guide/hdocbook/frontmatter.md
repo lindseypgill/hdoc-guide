@@ -41,5 +41,5 @@ first text line after the second (---) markdown fence line
 
 |Property|Description|
 |:---|:---|
-|`title`|The title of this document, typically, but not always the same as the first H1 in your document.  This is used |
+|`title`|The title of this document, typically, but not always the same as the first H1 in your document.|
 |`layout`|The layout template to use when rendering this article. If not specified this defaults to 'article'. Click here for a list of [Content Layout Templates]({{BASE_PATH}}/hdocbook/layout-templates)|
