@@ -13,7 +13,7 @@ However, there are many other very good editors with their own ecosystems of fea
 ## Required Tools 
 
 * Download and Install [Visual Studio Code](https://code.visualstudio.com/) 
-* Download and Install [Node.js LTS](https://nodejs.org/en/)
+* Download and Install [Node.js LTS](https://nodejs.org/en/) - requires Node.js v18.x or beter
 
 ### Recommended Visual Studio Code Extensions
 
