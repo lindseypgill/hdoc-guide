@@ -81,7 +81,9 @@ To get a more verbose breakdown of the stats you can run the command:
 Once you have finished making edits, you should use VS Code's built-in compatibility with GitHub to add and commit your changes, which will save them to Git. You can do this by clicking 'Source Control' on the left side of the VS Code screen, and then clicking 'commit'. It will prompt you for a commit message, in which you should give an idea of the changes you made. Type your message above the existing text in the window, and click the tick symbol near the top right of the screen. Your changes are now saved locally to Git.
 
 #### Step 6—Push Your Changes to Your Fork
-Once you have committed your changes, the next step is to save the same changes to your GitHub account's copy of the HDocBook repository. You can do this in much the same way as the previous step, by clicking 'source control' on the left side of VS Code and then clicking on the blue button presented there. 
+Once you have committed your changes, the next step is to save the same changes to your GitHub account's copy of the HDocBook repository. You can do this in much the same way as the previous step, by clicking 'source control' on the left side of VS Code and then clicking on the blue 'Sync Changes' button presented there. 
 
 #### Step 7—Create a Pull Request from Your Fork to the Main Branch
 You are able to use GitHub to create a Pull Request, which will ask Hornbill Docs, the operators of the main branch, to accept your changes into the master repo. The Hornbill Docs team will review the proposed changes in your Pull Request(s) and apply those that are accepted to the master repo ready for the next document build/publish cycle.
+
+To do this, use your browser to navigate to the main HDocBook repository, which you forked from in Step 2. On that page, click on 'Pull Requests', and then 'New Pull Request'.
