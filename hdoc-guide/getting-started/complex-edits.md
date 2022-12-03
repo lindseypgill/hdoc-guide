@@ -34,7 +34,7 @@ There are many such extensions so if you are familiar with VS Code you may choos
   * Shows .svg images
 
 ### Using Git With Visual Studio Code
-This video by Microsoft and the Visual Studio Code team provides general information on how to use Git with Visual Studio Code.
+This video by the Visual Studio Code team at Microsoft provides general information on how to use Git functions built into Visual Studio Code.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i_23KUAEtUM" title="Using Git with Visual Studio Code (Official Beginner Tutorial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
