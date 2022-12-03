@@ -33,6 +33,10 @@ There are many such extensions so if you are familiar with VS Code you may choos
 * [SVG Previewer](https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer) by Vitalii Mazurenko
   * Shows .svg images
 
+### Using Git With Visual Studio Code
+This video by Microsoft and the Visual Studio Code team provides general information on how to use Git with Visual Studio Code.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i_23KUAEtUM" title="Using Git with Visual Studio Code (Official Beginner Tutorial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Installing HDocBook Tools
 
