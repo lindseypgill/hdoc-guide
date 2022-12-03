@@ -25,13 +25,9 @@ You can test the dark/light mode rendering by switching modes at the top right o
 </table>
 
 
+The following monochromatic color pallets are recommended for use with illustrations and other image assets to ensure there is a consistency of styling and appearance across documents. 
 
-
-
-
-The following color pallets are recommended for use with illustrations and other image assets to ensure there is a consistency of styling and appearance across documents. 
-
-### Accent Color Monochromatic Pallet 
+### Accent Color
 
 <table style="width: 100%;">
     <tr style="height: 100px">
@@ -44,7 +40,7 @@ The following color pallets are recommended for use with illustrations and other
 </table>
 
 
-### Grey Scale Monochromatic Pallet 
+### Grey Scale 
 
 <table style="width: 100%;">
     <tr style="height: 100px">
