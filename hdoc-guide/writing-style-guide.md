@@ -4,7 +4,7 @@
 * Illustration/Image Style and Color Pallet Guidance 
 
 
-## Illustrations
+## Graphics and Illustrations
 When creating content that requires illustrations, info graphics and diagrams you should aim to create graphic assets rendered in Scalable Vector Graphics (SVG) format.  
 
 Content on Hornbill Docs can be rendered in both "light mode" and "dark mode" and this should be considered when designing graphics for inclusion.  Using two monochromatic scales one based on a neutral grey scale and the other based on the Hornbill Docs website accent color, you can create surprisingly sophisticated images.  By using the recommended color pallets as the basis for your images color theme you will help in maintaining consistency in the Hornbill Docs website appearance. 
