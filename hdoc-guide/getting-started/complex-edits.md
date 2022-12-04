@@ -5,7 +5,7 @@ layout: article
 The basic editing tools in GitHub, while sufficient for simple edits, are not well-suited for more comprehensive editing sessions. In this case we recommend you use this more advanced editing workflow which takes some initial setup, but once set up, the editing environment is far better, with lots of supporting tools and functionality to assist with you writing/editing productivity. 
 
 ::: note
-This guide assumes you will be using Visual Studio Code as your text editor. This is because the text editor is free, very powerful and—most importantly—has a large ecosystem of useful plugins, some of which we will recommend for your HDocBook editing workflow.  
+This guide assumes you will be using Visual Studio Code as your text editor. This is because the text editor is free, very powerful and—most importantly—has a large ecosystem of useful plugins, some of which we will recommend for your HDocBook editing workflow.
 
 However, there are many other very good editors with their own ecosystems of features and plugins, so if you prefer to choose a different text editor that you are already used to working with, please feel free to do so, using what you find in this document as general guidance on what you need.
 :::
@@ -36,9 +36,9 @@ There are many such extensions so if you are familiar with VS Code you may choos
 
 ## Installing HDocBook Tools
 
-HDocBook Tools is a simple command-line tool you install on your system. It requires Node.js to be installed. This tool is developed and maintained by Hornbill and provides you with a local preview server and other functions to help you with content development.
+HDocBook Tools is a simple command line tool you install on your system. It requires Node.js to be installed. This tool is developed and maintained by Hornbill and provides you with a local preview server and other functions to help you with content development.
 
-You can install the Hornbill HDocBook tools using Node Package Manager. From a command line simply type the following command and press Enter. This installs the package globally to your Node.js installation, making the `hdoc` CLI tool available for you to use.  
+You can install the Hornbill HDocBook Tools using Node Package Manager. From a command line simply type the following command and press Enter. This installs the package globally to your Node.js installation, making the `hdoc` CLI tool available for you to use.
 
 ```bash
 npm install hdoc-tools -g
@@ -78,12 +78,16 @@ To get a more verbose breakdown of the stats you can run the command:
 :::
 
 #### Step 5—Commit Your Edits
-Once you have finished making edits, you should use VS Code's built-in compatibility with GitHub to add and commit your changes, which will save them to Git. You can do this by clicking 'Source Control' on the left side of the VS Code screen, and then clicking 'commit'. It will prompt you for a commit message, in which you should give an idea of the changes you made. Type your message above the existing text in the window, and click the tick symbol near the top right of the screen. Your changes are now saved locally to Git.
+Once you have finished making edits, you should use VS Code's built-in compatibility with GitHub to add and commit your changes, which will save them to Git. You can do this by clicking 'Source Control' on the left side of the VS Code screen, and then clicking 'Commit'. A new text file will open, prompting you for a commit message, in which you should give an idea of the changes you made.
+
+Type your message above the existing text in the window. The heading of your message (a summary of your actions) should be no more than 50 characters, and the body (for any details) should be no more than 72 characters. [See here](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for more information about best practices for commit messages. 
+
+After you have written your commit message, click the tick symbol near the top right of the screen. Your changes are now saved locally to Git.
 
 #### Step 6—Push Your Changes to Your Fork
-Once you have committed your changes, the next step is to save the same changes to your GitHub account's copy of the HDocBook repository. You can do this in much the same way as the previous step, by clicking 'source control' on the left side of VS Code and then clicking on the blue 'Sync Changes' button presented there. 
+Once you have committed your changes locally, the next step is to save those changes to your fork, your GitHub account's online copy of the HDocBook repository. You can do this in much the same way as the previous step, by clicking 'source control' on the left side of VS Code and then clicking on the blue 'Sync Changes' button presented there.
 
 #### Step 7—Create a Pull Request from Your Fork to the Main Branch
-You are able to use GitHub to create a Pull Request, which will ask Hornbill Docs, the operators of the main branch, to accept your changes into the master repo. The Hornbill Docs team will review the proposed changes in your Pull Request(s) and apply those that are accepted to the master repo ready for the next document build/publish cycle.
+You are able to use GitHub to create a pull request, which will ask Hornbill Docs, the operators of the main branch, to accept your changes into the master repo. The Hornbill Docs team will review the proposed changes in your pull request(s) and apply those that are accepted to the master repo ready for the next document build/publish cycle.
 
-To do this, use your browser to navigate to the main HDocBook repository, which you forked from in Step 2. On that page, click on 'Pull Requests', and then 'New Pull Request'.
+To make a pull request, use your browser to navigate to your fork of the HDocBook repository on your GitHub account. On that page, click 'Pull Requests', then 'New Pull Request', and follow the instructions from there. Add a message at this stage to summarize the pull request.
