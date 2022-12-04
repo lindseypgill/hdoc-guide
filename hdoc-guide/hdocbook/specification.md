@@ -1,14 +1,14 @@
 # The HDocBook Specification
-The source content for a Book is made up of a folder structure containing any number of documents which can be authored in markdown, or as plain HTML. This specification is called HDocBook and is defined in this article.
+The source content for a Book is made up of a folder structure containing any number of documents which can be authored in Markdown, or as plain HTML. This specification is called HDocBook and is defined in this article.
 
 ## Book ID
-Every HDocBook project needs to be allocated a Book ID. This ID will uniquely, and globally identify each book (just like an ISBN number does for physical books).  This ID must be allocated by the Hornbill Docs Team on request, these ID's are globally unique, and maintained within a central list.
+Every HDocBook project needs to be allocated a Book ID. This ID will uniquely and globally identify each Book (just like an ISBN number does for physical books). This ID must be allocated by the Hornbill Docs Team on request; these IDs are globally unique, and maintained within a central list.
 
 ## Folder Structure
 The folder structure of a HDocBook project is organized as a typical Node.js assisted development project.  
 
-- The root folder contains a hdocbook-project.json file is required, this is used by the preview server and document build tools to identify the book ID (docId) for this project
-- The root folder of the project must contain a folder who's name is the same as the book ID for this project. All HDocBook content should appear inside this folder. 
+- The root folder contains a hdocbook-project.json file, which is required and used by the preview server and document build tools to identify the Book ID (docId) for the project.
+- The root folder of the project must contain a folder whose name is the same as the Book ID for the project. All HDocBook content should appear inside this folder. 
 
 ### Folder Structure Example
 ``` md
@@ -22,7 +22,7 @@ The folder structure of a HDocBook project is organized as a typical Node.js ass
 ```
 ## hdocbook-project.json file
 
-This file contains configuration settings used by the supporting hdocbook development and build tools. The most important property inside this file is the `docId` property, which tells the tools the name of the folder where the hdocbook.json file can be found. Here is an example of the project file:
+This file contains configuration settings used by the supporting HDocBook development and build tools. The most important property inside this file is the `docId` property, which tells the tools the name of the folder where the hdocbook.json file can be found. Here is an example of the project file:
 
 ``` json
 {
@@ -31,32 +31,32 @@ This file contains configuration settings used by the supporting hdocbook develo
 ```
 ## hdocbook.json file
 
-Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provides information needed to describe the HDocBook, its navigation, keywords and taxonomy metadata and so on.  The following properties are defined at the top-level of this file
+Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provides information needed to describe the HDocBook, its navigation, keywords, taxonomy and other metadata. The following properties are defined at the top level of this file:
 
 |Property|Description|
 |:---|:---|
-|`docId`|This is the document ID and should be set to the exact same name as the folder that the hdocbook.json file sits in|
+|`docId`|This is the document ID and should be set to the exact same name as the folder that the hdocbook.json file sits in.|
 |`title`|The title of this document|
-|`description`|A short description of the contents/purpose of this book|
-|`publicSourceCode`|A URL to the public source location of the HDocBook. If not specified, this HdocBook is considered private|
-|`version`|A version tag which identifies the revision of this book|
-|`navigation`|An object containing the definition of the navigation that is presented to the left of the documentation.<br><br>The navigation object contains an items[] array containing the top-level navigation items. See the table below for navigation item properties| 
+|`description`|A short description of the contents/purpose of this Book.|
+|`publicSourceCode`|A URL to the public source location of the HDocBook. If not specified, this HdocBook is considered private.|
+|`version`|A version tag which identifies the revision number of this Book.|
+|`navigation`|An object containing the definition of the navigation that is presented to the left of the documentation.<br><br>The navigation object contains an items[] array containing the top-level navigation items. See the table below for navigation item properties.| 
 
 ### Navigation Item Properties
 |Property|Description|
 |:---|:---|
-|`text`|The text displayed on the navigation view for this navigation item|
-|`link`|The link to the content page you want this item to navigate to (this is ignored if `items` is present|
-|`expand`|Set this to 'true' you want this item to expand on refresh (assuming there are child navigation items|
-|`items[]`|An array of child navigation items. There are only three levels allowed, so levels defined beyond this are ignored
+|`text`|The text displayed on the navigation view for this navigation item.|
+|`link`|The link to the content page you want this item to navigate to (this is ignored if `items` is present.|
+|`expand`|Set this to "true" you want this item to expand on refresh (assuming there are child navigation items.|
+|`items[]`|An array of child navigation items. There are only three levels allowed, so levels defined beyond this are ignored.|
 
-Here is an example configuration, showing the file used to define this HDocBook
+Here is an example configuration, showing the file used to define this HDocBook:
 
 ``` json
 {
     "docId": "hdoc-guide",
     "title": "Hornbill Docs Contributor Guide",
-    "description": "Information about developing and publishing documentation on Hornbill Docs (docs.hornbill.com) website",
+    "description": "Information about developing and publishing documentation on the Hornbill Docs (docs.hornbill.com) website",
     "publicSourceCode": "https://github.com/Hornbill-Docs/hdoc-guide",
     "version": "1.0.0",
     "navigation": {
