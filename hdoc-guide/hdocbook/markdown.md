@@ -135,7 +135,7 @@ The above Markdown will render like this.
 - There must be at least one space between the `#` and heading text.
 - Only a single H1 heading should exist in any Markdown file, and should be the first content item in the document.
 - For templates that include the right-hand table of contents, H2 and H3 headings will automatically appear inside it.
-- You can put links to individual headings in a Markdown file using [bookmark links](how-to-write-links.md#explicit-anchor-links).
+- You can put links to individual headings in a Markdown file using anchor links, as so: `[create an anchor](#anchors-in-markdown)`.
 :::
 
 ## HTML
