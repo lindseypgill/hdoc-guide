@@ -5,6 +5,7 @@
     "publicSource": "https://github.com/Hornbill-Docs/hdoc-guide",
     "version": "1.1.1",
     "audience": ["public"],
+    "languages": ["en", "fr"],
     "navigation": {
         "items": [
             {
@@ -75,6 +76,7 @@
                     },
                     {
                         "text": "Contributing",
+                        "expand": true,
                         "items": [
                             {
                                 "text": "Content Writing & Style Guide",
