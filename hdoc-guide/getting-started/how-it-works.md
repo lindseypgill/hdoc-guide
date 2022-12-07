@@ -14,7 +14,7 @@ The basic workflow for contributing to documentation on Hornbill Docs is as foll
 
 2. When you go to your own GitHub account repository list, you will see your forked copy of the document, this is where you can make your edits.
 
-3. Now you can make your edits. [Simple Edits]({{BASE_PATH}}/hdoc-guide/getting-started/simple-edits) can be done from within GitHub directly. For more [Complex Edits]({{BASE_PATH}}/getting-started/complex-edits) we strongly recommend using a good source code editor, such as the utterly brilliant and free [Visual Studio Code](https://code.visualstudio.com/) editor from Microsoft (along with a small number of very useful plugins) for a great editing experience.
+3. Now you can make your edits. [Simple Edits]({{BASE_PATH}}/getting-started/simple-edits) can be done from within GitHub directly. For more [Complex Edits]({{BASE_PATH}}/getting-started/complex-edits) we strongly recommend using a good source code editor, such as the utterly brilliant and free [Visual Studio Code](https://code.visualstudio.com/) editor from Microsoft (along with a small number of very useful plugins) for a great editing experience.
 
 4. Once you have completed the edits you want to make, you can, if you want to, create a pull request to ask the maintainers of the master document source (in this case the Hornbill Docs team) to accept your edits. The team will review your changes and pull them into the master repo for inclusion in the next nightly documentation build. 
 
