@@ -148,7 +148,7 @@ The following image types are supported.
 - .png
 - .svg
 
-For illustrations, flow diagrams and info graphics, we recommend you have your graphic designer use SVG format, and follow the [Hornbill Graphics and Illustration Style Guide]({{BASE_PATH}}/writing-style-guide#graphics-and-illustrations) in order to ensure that images scale properly for screen, print and PDF, and in the case of screen rendering look high quality in both light and dark screen rendering mode.
+For illustrations, flow diagrams and info graphics, we recommend you have your graphic designer use SVG format, and follow the [Hornbill Graphics and Illustration Style Guide](/_books/hdoc-guide/writing-style-guide#graphics-and-illustrations) in order to ensure that images scale properly for screen, print and PDF, and in the case of screen rendering look high quality in both light and dark screen rendering mode.
 
 The basic Markdown syntax you should use to embed an image in your content is: 
 
