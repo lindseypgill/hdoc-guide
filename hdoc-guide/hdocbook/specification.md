@@ -38,6 +38,7 @@ Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provide
 |`docId`|This is the document ID and should be set to the exact same name as the folder that the hdocbook.json file sits in.|
 |`title`|The title of this document|
 |`description`|A short description of the contents/purpose of this Book.|
+|`coverImage`|Full-qualified [options] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, a global generic image will be used.|
 |`publicSourceCode`|A URL to the public source location of the HDocBook. If not specified, this HdocBook is considered private.|
 |`version`|A version tag which identifies the revision number of this Book.|
 |`navigation`|An object containing the definition of the navigation that is presented to the left of the documentation.<br><br>The navigation object contains an items[] array containing the top-level navigation items. See the table below for navigation item properties.| 

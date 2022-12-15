@@ -33,3 +33,4 @@ Frontmatter must always appear at the top of the article. The frontmatter conten
 |:---|:---|
 |`title`|The title of this document; typically, but not always, the same as the first H1 in your document.|
 |`layout`|The layout template to use when rendering this article. If not specified this defaults to "article". [Click here for a list of Content Layout Templates](/_books/hdoc-guide/hdocbook/layout-templates).|
+|`coverImage`|Full-qualified [options] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, the book-specific image will be used, and if not defined at book-level a global generic image will be used|
