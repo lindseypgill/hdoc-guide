@@ -45,6 +45,10 @@
                             {
                                 "text": "Complex Edits Workflow",
                                 "link": "hdoc-guide/getting-started/complex-edits"
+                            },
+                            {
+                                "text": "Creating a New Book",
+                                "link": "hdoc-guide/getting-started/create-new"
                             }
                         ]
                     },
