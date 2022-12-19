@@ -38,7 +38,8 @@ Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provide
 |`docId`|This is the document ID and should be set to the exact same name as the folder that the hdocbook.json file sits in.|
 |`title`|The title of this document|
 |`description`|A short description of the contents/purpose of this Book.|
-|`coverImage`|Full-qualified [options] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, a global generic image will be used.|
+|`coverImage`|Fully-qualified [optional] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, a global generic image will be used.|
+|`audience`|[array] Defines the audience that this HDocBook will be published to|
 |`publicSourceCode`|A URL to the public source location of the HDocBook. If not specified, this HdocBook is considered private.|
 |`version`|A version tag which identifies the revision number of this Book.|
 |`navigation`|An object containing the definition of the navigation that is presented to the left of the documentation.<br><br>The navigation object contains an items[] array containing the top-level navigation items. See the table below for navigation item properties.| 
@@ -146,3 +147,16 @@ Here is an example configuration, showing the file used to define this HDocBook:
     }
 }
 ```
+
+### Audience
+The Hornbill Docs publishing system is used to publish documentation to customers, as well as partners and internal Hornbill employees.  The audiences are defined in the table below. 
+
+|Audience|Description|
+|:---|:---|
+|`private`|Any internal Hornbill user|
+|`private.cloud`|Any member of the cloud team, relates to cloud operations, systems, processes and procedures etc|
+|`private.dev.platform`|Any member of the platform dev team, relates to development processes, systems, tools and reference guides etc|
+|`private.dev.apps`|Any member of the application dev team, relates primarily to development processes, tools, reference guides etc|
+|`private.hdocs`|Any member of the Hornbill Docs team|
+|`private.elearning`|Any member of the Hornbill E-Learning team|
+|`public`|Anyone inside or outside of Hornbill|
