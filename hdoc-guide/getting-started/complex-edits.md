@@ -14,6 +14,11 @@ However, there are many other very good editors with their own ecosystems of fea
 
 * Download and install [Visual Studio Code](https://code.visualstudio.com/) 
 * Download and install [Node.js LTS](https://nodejs.org/en/)—the process below requires Node.js v18.x or better
+::: important 
+During the Node.js installation, you may be asked if you would like to automatically install the tools necessary to compile native modules. These tools are required by the HDocBook tooling, so you should either:
+* Allow the Node.js installation to download and install these automatically.
+* Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp) package documentation for further information.
+:::
 * Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * Sign up for a [GitHub account](https://github.com/signup)
 * [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git)
