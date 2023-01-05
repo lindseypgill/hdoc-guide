@@ -15,7 +15,10 @@ However, there are many other very good editors with their own ecosystems of fea
 * Download and install [Visual Studio Code](https://code.visualstudio.com/) 
 * Download and install [Node.js LTS](https://nodejs.org/en/)—the process below requires Node.js v18.x or better
 ::: important 
-During the Node.js installation, you may be asked if you would like to automatically install the tools necessary to compile native modules. These tools are required by the HDocBook tooling, so you should either:
+During the Node.js installation, you may be asked if you would like to automatically install the tools necessary to compile native modules. On Windows, the option will appear as so:
+<img src="_books/hdoc-guide/images/nodejs-setup.png" width="500px" />
+
+These tools are required by the HDocBook tooling, so you should either:
 * Allow the Node.js installation to download and install these automatically.
 * Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp) package documentation for further information.
 :::
