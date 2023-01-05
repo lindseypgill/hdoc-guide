@@ -25,8 +25,8 @@ These tools are required by the HDocBook tooling, so you should either:
 * Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp) package documentation for further information.
 :::
 * Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* Sign up for a [GitHub account](https://github.com/signup)
-* [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git)
+* Sign up for a free [GitHub account](https://github.com/signup) if you do not already have one
+* Follow these instructions to [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git)
 
 ### Recommended Visual Studio Code Extensions
 
