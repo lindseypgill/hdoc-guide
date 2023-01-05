@@ -13,9 +13,11 @@ However, there are many other very good editors with their own ecosystems of fea
 ## Required Tools 
 
 * Download and install [Visual Studio Code](https://code.visualstudio.com/) 
-* Download and install [Node.js LTS](https://nodejs.org/en/)—the process below requires Node.js v18.x or better. You should stick with the Long Term Support (LTS) install of Node.js unless you are a Node expert and prepared to troubleshoot and manage any incompatibilities and tools configuration issues that may show up.
-::: important 
-During the Node.js installation, you may be asked if you would like to automatically install the tools necessary to compile native modules. On Windows, the option will appear as so:
+* Download and install [Node.js LTS](https://nodejs.org/en/)—the process below requires Node.js v18.x or better. 
+::: important
+While the hdoc-tools package should work with any version of Node.js, You should stick with the Long Term Support (LTS) install of Node.js **unless** you are a Node expert and prepared to troubleshoot and manage any incompatibilities and tools configuration issues that may arise.  The Hornbill Docs team test our tells with LTS versions of Node.js to ensure things will work as expected. 
+
+During the Node.js installation, you will be asked if you would like to automatically install the tools necessary to compile native modules. On Windows, the option will appear as so:
 <img src="_books/hdoc-guide/images/nodejs-setup.png" width="500px" />
 
 These tools are required by the HDocBook tooling, so you should either:
