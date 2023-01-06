@@ -14,16 +14,18 @@ However, there are many other very good editors with their own ecosystems of fea
 
 * Download and install [Visual Studio Code](https://code.visualstudio.com/) 
 * Download and install [Node.js LTS](https://nodejs.org/en/) — the process below requires Node.js LTS v18 or better. 
-::: important
-While the hdoc-tools package should work with any version of Node.js v18 or above, you should stick with the Long Term Support (LTS) install of Node.js **unless** you are a Node expert and prepared to troubleshoot and manage any incompatibilities and tool configuration issues that may arise.  The Hornbill Docs team test our tools with LTS versions of Node.js to ensure things will work as expected. 
 
-During the Node.js installation, you will be asked if you would like to automatically install the tools necessary to compile native modules. On Windows, the option will appear as so:
-<img src="_books/hdoc-guide/images/nodejs-setup.png" width="500px" />
+  ::: important
+  While the hdoc-tools package should work with any version of Node.js v18 or above, you should stick with the Long Term Support (LTS) install of Node.js **unless** you are a Node expert and prepared to troubleshoot and manage any incompatibilities and tool configuration issues that may arise.  The Hornbill Docs team test our tools with LTS versions of Node.js to ensure things will work as expected. 
+ 
+  During the Node.js installation, you will be asked if you would like to automatically install the tools necessary to compile native modules. On  Windows, the option will appear as so:
+  <img src="_books/hdoc-guide/images/nodejs-setup.png" width="500px" />
+ 
+  These tools are required by the HDocBook tooling, so you should either:
+  * Allow the Node.js installation to download and install these automatically.
+  * Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp)  package documentation for further information.
+  :::
 
-These tools are required by the HDocBook tooling, so you should either:
-* Allow the Node.js installation to download and install these automatically.
-* Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp) package documentation for further information.
-:::
 * Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * Sign up for a free [GitHub account](https://github.com/signup) if you do not already have one
 * Follow these instructions to [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git)
