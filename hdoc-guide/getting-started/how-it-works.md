@@ -3,7 +3,7 @@
 The Hornbill Docs team publishes most of its documentation on GutHub. Each HDocBook has its own public repository, and anyone is free to contribute to Hornbill Docs should they wish. The process is simple and makes use of readily available and free tools—simply follow this guide to learn how. 
 ## GitHub
 
-GitHub is an online source code and community projects website for developers, and is primarily used to host open-source projects. Hornbill maintains a GitHib account which we use to host our documentation source code. Almost all documents available on the [Hornbill Docs](https://docs.hornbill.com/) website are made available as a public repository on our GitHub account.  You can browse the Hornbill Docs GitHub account [here](https://github.com/Hornbill-Docs).
+GitHub is an online source code and community projects website for developers, and is primarily used to host open-source projects. Hornbill maintains a GitHub account which we use to host our documentation source code. Almost all documents available on the [Hornbill Docs](https://docs.hornbill.com/) website are made available as a public repository on our GitHub account.  You can browse the Hornbill Docs GitHub account [here](https://github.com/Hornbill-Docs).
 
 In order for you to contribute to Hornbill Docs content, you will need a basic working knowledge of GitHub and a free account.
 ## How Contributing Works
