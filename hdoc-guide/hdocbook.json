@@ -38,7 +38,7 @@
                         "items": [
                             {
                                 "text": "Getting Started",
-                                "link": "hdoc-guide/getting-started/how-it-works"
+                                "link": "hdoc-guide/getting-started"
                             },
                             {
                                 "text": "Simple Edits Workflow",
