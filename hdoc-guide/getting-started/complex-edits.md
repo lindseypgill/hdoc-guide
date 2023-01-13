@@ -81,7 +81,7 @@ Follow these steps to edit and publish documents:
 
 6. Commit Your Edits. To do this:
     1. Select "Source Control" on the left side of the VS Code screen, then select "Commit". 
-    2. Add a commit message then select the button to commit.
+    2. A commit message window opens. Add a commit message then select the tick button to commit.
 
     ::: note
     A commit message is your description of the changes you have made. The heading of your message (a summary of your actions) should be no more than 50 characters, and the body (details) should be no more than 72 characters. [See here](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for more information on practices for commit messages. 
