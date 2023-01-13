@@ -1,9 +1,9 @@
-# Contributing—How it Works
+# Contributing — Getting Started
 
 The Hornbill Docs team publishes most of its documentation on GutHub. Each HDocBook has its own public repository, and anyone is free to contribute to Hornbill Docs should they wish. The process is simple and makes use of readily available and free tools—simply follow this guide to learn how. 
 ## GitHub
 
-GitHub is an online source code and community projects website for developers, and is primarily used to host open-source projects. Hornbill maintains a GitHib account which we use to host our documentation source code. Almost all documents available on the [Hornbill Docs](https://docs.hornbill.com/) website are made available as a public repository on our GitHub account.  You can browse the Hornbill Docs GitHub account [here](https://github.com/Hornbill-Docs).
+GitHub is an online source code and community projects website for developers, and is primarily used to host open-source projects. Hornbill maintains a GitHub account which we use to host our documentation source code. Almost all documents available on the [Hornbill Docs](https://docs.hornbill.com/) website are made available as a public repository on our GitHub account.  You can browse the Hornbill Docs GitHub account [here](https://github.com/Hornbill-Docs).
 
 In order for you to contribute to Hornbill Docs content, you will need a basic working knowledge of GitHub and a free account.
 ## How Contributing Works
@@ -20,7 +20,7 @@ The basic workflow for contributing to documentation on Hornbill Docs is as foll
 
 5. Once you have finished your editing session, you can save space on your personal GitHub account by deleting your fork of the document. Forking is fast and simple to do, so it's easy to take a copy of the latest source when you want to start a new editing session. 
 
-::: Tip
+::: tip
 Once you have copied (forked) the master repo, your changes are not applied to the master, so you are safe to do whatever you want. If you do send a pull request, the changes you request will be reviewed by the Hornbill Docs team before being accepted into the master documentation source. The review process will be much faster if your changes are small.
 :::
 
