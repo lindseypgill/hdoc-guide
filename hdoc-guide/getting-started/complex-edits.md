@@ -30,14 +30,12 @@ The following prerequisutes must be complete before you can edit and commit Horn
 5. Download and install [Node.js LTS](https://nodejs.org/en/) (Minimum version: Node.js LTS v18 LTS).
  ::: important
   Install the latest Long Term Support (LTS) version of Node.js. Non-LTS versions are not validated by Hornbill.
-  :::
-
-During the Node.js installation, you may be asked to automatically install the tools necessary to compile native modules. Because these tools are required by the Hornbill's HDocBook tooling, you must either:
-  1. Allow the Node.js installation to download and install these automatically.
-  2. Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp)  package documentation for further information.
-
- 
-
+  ::: 
+  ::: note
+  During the Node.js installation, you may be asked to automatically install the tools necessary to compile native modules. Because these tools are required by the Hornbill's HDocBook tooling, you must either:
+   1. Allow the Node.js installation to download and install these automatically.
+   2. Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp)  package documentation for further information.
+   :::
 6.  Install HDocBook Tools. To install HDocs Tools, enter a terminal window and enter the following command: 
 ```bash
 npm install hdoc-tools -g
@@ -51,7 +49,7 @@ Follow these steps to edit and publish documents:
 
 1. Select a Document to Edit. To do this, browse to the [Hornbill Docs GitHub account](https://github.com/Hornbill-Docs) and locate the document you wish to contribute to. 
 
-2. Fork Your Copy on GitHub. In order to contribute to a HDocBook you are first required to fork the HDocBook repository that contains it, which will make a copy of that repository in your personal GitHub account. The button to do this is near the top right of the repository page on GitHub.
+2. Fork Your Copy on GitHub. To contribute to a HDocBook you are first required to fork the HDocBook repository that contains it, which will make a copy of that repository in your personal GitHub account. In your Github account, having selected the Hornbill document, select the Fork menu item and create a new Fork.
 
 3. Clone Your Copy to Your Local Computer. To do this:
     1. On your computer, create a folder called "hornbill-docs" in the desired location.
