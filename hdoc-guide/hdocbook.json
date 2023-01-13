@@ -37,7 +37,7 @@
                         "expand": true,
                         "items": [
                             {
-                                "text": "How It Works",
+                                "text": "Getting Started",
                                 "link": "hdoc-guide/getting-started/how-it-works"
                             },
                             {
