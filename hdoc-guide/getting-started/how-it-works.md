@@ -20,7 +20,7 @@ The basic workflow for contributing to documentation on Hornbill Docs is as foll
 
 5. Once you have finished your editing session, you can save space on your personal GitHub account by deleting your fork of the document. Forking is fast and simple to do, so it's easy to take a copy of the latest source when you want to start a new editing session. 
 
-::: Tip
+::: tip
 Once you have copied (forked) the master repo, your changes are not applied to the master, so you are safe to do whatever you want. If you do send a pull request, the changes you request will be reviewed by the Hornbill Docs team before being accepted into the master documentation source. The review process will be much faster if your changes are small.
 :::
 
