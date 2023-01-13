@@ -17,7 +17,7 @@ However, there are many other very good editors with their own ecosystems of fea
 
   ::: important
   While the hdoc-tools package should work with any version of Node.js v18 or above, you should stick with the Long Term Support (LTS) install of Node.js **unless** you are a Node expert and prepared to troubleshoot and manage any incompatibilities and tool configuration issues that may arise.  The Hornbill Docs team test our tools with LTS versions of Node.js to ensure things will work as expected. 
- 
+
   During the Node.js installation, you will be asked if you would like to automatically install the tools necessary to compile native modules. On  Windows, the option will appear as so:
   <img src="_books/hdoc-guide/images/nodejs-setup.png" width="500px" />
  
