@@ -1,109 +1,116 @@
 ---
 layout: article
 ---
-# Complex Edits Workflow
-The basic editing tools in GitHub, while sufficient for simple edits, are not well-suited for more comprehensive editing sessions. In this case we recommend you use this more advanced editing workflow which takes some initial setup, but once set up, the editing environment is far better, with lots of supporting tools and functionality to assist with you writing/editing productivity. 
+# Advanced Editing Workflow
+This guide explains how to set up and configure the Advanced Editing workflow for Hornbill documentation. 
 
-::: note
-This guide assumes you will be using Visual Studio Code as your text editor. This is because the text editor is free, very powerful and—most importantly—has a large ecosystem of useful plugins, some of which we will recommend for your HDocBook editing workflow.
+The main benefit of using the Advanced Editing workflow over the Basic Editing workflow is being able to preview how documentation and content will be presented on the live Hornbill Docs website.
 
-However, there are many other very good editors with their own ecosystems of features and plugins, so if you prefer to choose a different text editor that you are already used to working with, please feel free to do so, using what you find in this document as general guidance on what you need.
-:::
+The Advanced Edits workflow is more complex to setup and configure than the Basic edits workflow as you need to install a number of dependencies and tools. 
 
-## Required Tools 
+Once you are set up, the Document editing and publishing workflow is relatively straightforward.
 
-* Download and install [Visual Studio Code](https://code.visualstudio.com/) 
-* Download and install [Node.js LTS](https://nodejs.org/en/) — the process below requires Node.js LTS v18 or better. 
+## Overview
+The Advanced Edits workflow allows you to work on GitHub content offline using Git and then submit it back to GitHub. Using this approach, you will:
+
+1. Check out (fork) content from Hornbill's main branch of the content hosted that is hosted online into your GitHub account.
+2. Copy (clone) the content from your account to your local machine then edit it.
+3. Save (commit) it locally to Git.
+4. Send it back (push) to your GitHub account.
+5. Commit your changes the main branch to be validated by Hornbill who may add your changes to the main repository.
+
+This guide uses Visual Studio as a text editor, but you can use a different one of your choice. Visual studio is free, well-supported, and has a large ecosystem of plugins, which are useful when editing documentation.
+
+## Before you begin
+* Sign up for a free [GitHub account](https://github.com/signup) if you do not already have one.
+* Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
+* Follow these instructions to [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git).
+* Download and install [Visual Studio Code](https://code.visualstudio.com/). 
+* Download and install [Node.js LTS](https://nodejs.org/en/) — Minimum version: Node.js LTS v18 LTS.
+
+During the Node.js installation, you may be asked to automatically install the tools necessary to compile native modules.
+ 
+  Because these tools are required by the Hornbill's HDocBook tooling, you must either:
+  1. Allow the Node.js installation to download and install these automatically.
+  2. Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp)  package documentation for further information.
 
   ::: important
-  While the hdoc-tools package should work with any version of Node.js v18 or above, you should stick with the Long Term Support (LTS) install of Node.js **unless** you are a Node expert and prepared to troubleshoot and manage any incompatibilities and tool configuration issues that may arise.  The Hornbill Docs team test our tools with LTS versions of Node.js to ensure things will work as expected. 
- 
-  During the Node.js installation, you will be asked if you would like to automatically install the tools necessary to compile native modules. On  Windows, the option will appear as so:
-  <img src="_books/hdoc-guide/images/nodejs-setup.png" width="500px" />
- 
-  These tools are required by the HDocBook tooling, so you should either:
-  * Allow the Node.js installation to download and install these automatically.
-  * Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp)  package documentation for further information.
+  Install the latest Long Term Support (LTS) version of Node.js. Non-LTS versions are not validated by Hornbill.
   :::
 
-* Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* Sign up for a free [GitHub account](https://github.com/signup) if you do not already have one
-* Follow these instructions to [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git)
-
-### Recommended Visual Studio Code Extensions
-
-You should install the following Visual Studio Code extensions. To see how, see [Install Visual Studio Code Extensions](https://code.visualstudio.com/learn/get-started/extensions).
-
-There are many such extensions so if you are familiar with VS Code you may choose other extensions if they better suit your workflow. 
-
-* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) by Street Side Software
-  * Gives you spell checking and highlighting
-* [Word Count](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) by Microsoft
-  * Provides a useful count of words in your current document
-* [Preview](https://marketplace.visualstudio.com/items?itemName=searKing.preview-vscode) by Haixan Chen
-  * Gives you Markdown preview capability
-* [SVG Previewer](https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer) by Vitalii Mazurenko
-  * Shows .svg images
-
-### Using Git With Visual Studio Code
-This video by the Visual Studio Code team at Microsoft provides general information on how to use Git functions built into Visual Studio Code.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i_23KUAEtUM" title="Using Git with Visual Studio Code (Official Beginner Tutorial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Installing HDocBook Tools
-
-HDocBook Tools is a simple command-line tool you install on your system. It requires Node.js to be installed. This tool is developed and maintained by Hornbill and provides you with a local preview server and other functions to help you with content development.
-
-You can install Hornbill's HDocBook Tools using Node Package Manager. From a command line simply type the following and press "Enter". This installs the package globally to your Node.js installation, making the `hdoc` CLI tool available for you to use.
-
+* Install HDocBook Tools. To install HDocs Tools, enter a terminal window and enter the following command: 
 ```bash
 npm install hdoc-tools -g
 ```
+This installs the package globally to your Node.js installation, making the `hdoc` CLI tool available for you to use. 
 
-## Working on the HDocBook
+HDocBook Tools is a command-line tool that is developed and maintained by Hornbill. Importantly, it provides you with a local preview server for previewing content in a browser window.
 
-#### Step 1—Choose the Document to Contribute to
+## Document editing and publishing workflow
+
+1. Select a Document to Edit 
 Browse to the [Hornbill Docs GitHub account](https://github.com/Hornbill-Docs) and locate the document you wish to contribute to. 
 
-#### Step 2—Fork Your Copy on GitHub
-In order to contribute to a HDocBook you are first required to "fork" the HDocBook repository that contains it, which will make a copy of that repository in your personal GitHub account. The button to do this is near the top right of the repository page on GitHub.
+2. Fork Your Copy on GitHub
+In order to contribute to a HDocBook you are first required to fork the HDocBook repository that contains it, which will make a copy of that repository in your personal GitHub account. The button to do this is near the top right of the repository page on GitHub.
 
-#### Step 3—Clone Your Copy to Your Local Computer
-To start editing the HDocBook you need to make a clone of the HDocBook from your personal GitHub account. Follow the steps below:
-
-- On your computer, create a folder called "hornbill-docs" in the desired location.
-- Open a terminal window in that folder and type the command:
+3. Clone Your Copy to Your Local Computer. To do this:
+    1. On your computer, create a folder called "hornbill-docs" in the desired location.
+    2. Open a terminal window in that folder and type the command:
 
   `git clone [your cloned HDocBook url]`
 
-#### Step 4—Run the Preview Server
-Inside Visual Studio Code use the Open Folder (Ctrl+k) function to open the first/top-level hdoc-guide folder, which contains the hdocbook-project.json file. Then open a terminal window (Ctrl+Shift+') and type `hdoc serve`. The preview server should start. Now open a web browser and enter the URL http://127.0.0.1:3000/ and you should be presented with a preview of the document.
+4. Preview the document. To do this:
+    1. In Visual Studio Code, select File -> Open Folder and open the first/top-level hdoc-guide folder. This folder which contains the hdocbook-project.json file. 
+    2. Select Terminal > New Terminal, to open a terminal window. 
+    3. In the terminal prompt, type `hdoc serve` then press return to start the preview server. 
+    4. Open a web browser then navigate to http://127.0.0.1:3000/. The web browser should display a preview of the document.
+
+5. Edit documents in Visual Studio. You can work on multiple documents simultaneously in Visual Studio by having them open in different tabs. Save changes as you go.
 
 ::: note
-Currently the content in the browser with the preview server DOES NOT auto refresh as you edit the content. To see changes in the page you are viewing or in the navigation you will need to refresh the browser page.
+Updates in the text editor are not automatically displayed in the document preview. To preview changes as you work on a document, refresh the browser page.
 :::
 
-Edit the document(s) as required.
-
 ::: tip
-To see the basic statistics of the document, including file count and total word count, in the terminal window you can run:
+Run this command to view basic statistics of the document, including file count and total word count:
 - `hdoc stats`
 
-To get a more verbose breakdown of the stats you can run the command:
+Run this command to access a more detailed breakdown of the statistics:
 - `hdoc stats -v`
 :::
 
-#### Step 5—Commit Your Edits
-Once you have finished making edits, you should use VS Code's built-in compatibility with GitHub to add and commit your changes, which will save them to Git. You can do this by clicking "Source Control" on the left side of the VS Code screen, and then clicking "Commit". A new text file will open, prompting you for a commit message, in which you should give an idea of the changes you made.
+6. Commit Your Edits
+Use VS Code's built-in compatibility with GitHub to add and commit your changes, which will save them to Git. To do this, select "Source Control" on the left side of the VS Code screen, then select "Commit". A text file will open, prompting you to add a commit message. A commit message is your description of the changes you have made.
 
-Type your message above the existing text in the window. The heading of your message (a summary of your actions) should be no more than 50 characters, and the body (for any details) should be no more than 72 characters. [See here](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for more information about best practices for commit messages. 
+The heading of your message (a summary of your actions) should be no more than 50 characters, and the body (details) should be no more than 72 characters. [See here](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for more information on practices for commit messages. 
 
-After you have written your commit message, click the tick symbol near the top right of the screen. Your changes are now saved locally to Git.
+After you have written your commit message, click the tick symbol to save your changes locally to Git.
 
-#### Step 6—Push Your Changes to Your Fork
+6. Push Your Changes to Your Fork
 Once you have committed your changes locally, the next step is to save those changes to your fork, your GitHub account's online copy of the HDocBook repository. You can do this in much the same way as the previous step, by clicking "Source Control" on the left side of VS Code and then clicking on the blue "Sync Changes" button presented there.
 
-#### Step 7—Create a Pull Request from Your Fork to the Main Branch
-You are able to use GitHub to create a pull request, which will ask Hornbill Docs, the operators of the main branch, to accept your changes into the master repo. The Hornbill Docs team will review the proposed changes in your pull request(s) and apply those that are accepted to the master repo ready for the next document build/publish cycle.
+7. Create a Pull Request from Your Fork to the Main Branch. You are able to use GitHub to create a pull request, which will ask Hornbill Docs, the operators of the main branch, to accept your changes into the master repo. The Hornbill Docs team will review the proposed changes in your pull request(s) and apply those that are accepted to the master repo ready for the next document build/publish cycle.
 
 To make a pull request, use your browser to navigate to your fork of the HDocBook repository on your GitHub account. On that page, click "Pull Requests", then 'New Pull Request', and follow the instructions from there. Add a message at this stage to summarize the pull request.
+
+## Useful resources
+
+## Using Git with Visual Studio Code (external)
+Video embedded here
+
+
+### Optional Visual Studio Code Extensions (external)
+
+There are a number of [Visual Studio code Extensions ](https://code.visualstudio.com/learn/get-started/extensions) you can install to improve your editing experience.
+
+Examples include:
+
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) 
+  * Gives you spell checking and highlighting
+* [Word Count](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount) 
+  * Provides a useful count of words in your current document
+* [Preview](https://marketplace.visualstudio.com/items?itemName=searKing.preview-vscode) 
+  * Gives you Markdown preview capability
+* [SVG Previewer](https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer)
+  * Shows .svg images
