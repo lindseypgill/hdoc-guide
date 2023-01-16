@@ -30,7 +30,8 @@ The following steps must be complete before you can edit and commit Hornbill doc
 3. Follow these instructions to [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git).
 4. Download and install [Visual Studio Code](https://code.visualstudio.com/). 
 5. Download and install [Node.js LTS](https://nodejs.org/en/) (Minimum version: Node.js LTS v18 LTS).
- ::: important
+
+  ::: important
   Install the latest Long Term Support (LTS) version of Node.js. Non-LTS versions are not validated by Hornbill.
   ::: 
   ::: note
@@ -38,11 +39,11 @@ The following steps must be complete before you can edit and commit Hornbill doc
    1. Allow the Node.js installation to download and install these automatically.
    2. Install the tooling manually once the Node.js installation is complete. To do this, see the [node-gyp](https://www.npmjs.com/package/node-gyp)  package documentation for further information.
    :::
-6.  Install HDocBook Tools. To install HDocs Tools, open a terminal window and enter the following command: 
-```bash
-npm install hdoc-tools -g
-```
-Depending on your level of local persmissions, you may need to run the command as the root user. This installs the package globally to your Node.js installation, making the `hdoc` CLI tool available for you to use. 
+6.  Install HDocBook Tools. To install HDocBook Tools, open a terminal window and enter the following command: 
+    ```bash
+    npm install hdoc-tools -g
+    ```
+   Depending on your local operating system persmissions, you may need to run the command as the root user. This installs the package globally to your Node.js installation, making the `hdoc` CLI tool available for you to use. 
 
 ## Document editing and publishing workflow
 Follow these steps to edit and publish documents:
@@ -55,7 +56,7 @@ Follow these steps to edit and publish documents:
     1. On your computer, create a folder called "hornbill-docs" in the desired location.
     2. Open a terminal window in that folder and type the command:
 
-  `git clone [your cloned HDocBook url]`
+   `git clone [your cloned HDocBook url]`
 
 4. Preview the document. To do this:
     1. In Visual Studio Code, select File -> Open Folder and open the first/top-level hdoc-guide folder. This folder which contains the hdocbook-project.json file. 

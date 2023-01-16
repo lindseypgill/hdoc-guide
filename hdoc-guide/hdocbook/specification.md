@@ -9,6 +9,7 @@ The folder structure of a HDocBook project is organized as a typical Node.js ass
 
 - The root folder contains a hdocbook-project.json file, which is required and used by the preview server and document build tools to identify the Book ID (docId) for the project.
 - The root folder of the project must contain a folder whose name is the same as the Book ID for the project. All HDocBook content should appear inside this folder. 
+- The '/resources' folder.  When creating content, for example images and illustrations, while the resultant image will be included within the published content, you should also keep any source files (for example photoshop or powerpoint files) that are used in the creation of the images. Yhis way, should the image need to be updated in the future, we will have the source code for that image to hand.  
 
 ### Folder Structure Example
 ``` md
@@ -16,6 +17,7 @@ The folder structure of a HDocBook project is organized as a typical Node.js ass
    ├── <doc-id>
    │   ├── hdocbook.json
    │   └── **/* (any content goes in here)
+   ├── resources/   
    ├── hdocbook-project.json
    ├── package.json
    └── README.md
@@ -41,8 +43,17 @@ Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provide
 |`coverImage`|Fully-qualified [optional] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, a global generic image will be used.|
 |`audience`|[array] Defines the audience that this HDocBook will be published to|
 |`publicSourceCode`|A URL to the public source location of the HDocBook. If not specified, this HdocBook is considered private.|
-|`version`|A version tag which identifies the revision number of this Book.|
+|`version`|A version tag which identifies the revision number of this Book. This also controls automated publishing, do not change this as an external contributor.|
 |`navigation`|An object containing the definition of the navigation that is presented to the left of the documentation.<br><br>The navigation object contains an items[] array containing the top-level navigation items. See the table below for navigation item properties.| 
+
+## Controlling Document Publishing
+
+Each document being publshed is added to a list on one of the publishing servers.  The plublishing server will poll the repository for each document and will keep track of the last published version.  When the publishing detects a change in version number for
+a given document, the publishing server will clone a copy of the repo, build, package and publish to the required server(s) automatically.  
+
+::: warning
+For external contributions, no pull requests that include a version number change in the hdocbook.json file will be accepted into the main repository. 
+:::
 
 ### Navigation Item Properties
 |Property|Description|
