@@ -35,3 +35,4 @@ Frontmatter must always appear at the top of the article. The frontmatter conten
 |`layout`|The layout template to use when rendering this article. If not specified this defaults to "article". [Click here for a list of Content Layout Templates](/_books/hdoc-guide/hdocbook/layout-templates).|
 |`coverImage`|Full-qualified [options] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, the book-specific image will be used, and if not defined at book-level a global generic image will be used|
 |`readingTime`|The amount of reading time required for this document. If not specified, this will be calculated automatically when the document is built, ready for publishing| 
+|`pdfAvailable`|Set to 'true' if there is a PDF document avalable for this article|
