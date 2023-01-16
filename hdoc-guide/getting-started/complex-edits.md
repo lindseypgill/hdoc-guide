@@ -59,7 +59,7 @@ Follow these steps to edit and publish documents:
    `git clone [your cloned HDocBook url]`
 
 4. Preview the document. To do this:
-    1. In Visual Studio Code, select File -> Open Folder and open the first/top-level hdoc-guide folder. This folder which contains the hdocbook-project.json file. 
+    1. In Visual Studio, select File -> Open Folder and open the first/top-level hdoc-guide folder. This folder contains the hdocbook-project.json file. 
     2. Select Terminal > New Terminal, to open a terminal window. 
     3. In the terminal prompt, type `hdoc serve` then press return to start the preview server. 
     4. Open a web browser then navigate to http://127.0.0.1:3000/. The web browser should display a preview of the document.
@@ -91,8 +91,8 @@ Follow these steps to edit and publish documents:
 7. Create a Pull Request from Your Fork to the Hornbill Main Branch. To to this:
     1. Go online to your GitHub account. 
     2. Navigate to your fork of the HDocBook repository. 
-    3. Select "Pull Requests", then select "New Pull Request". Your pushed changed should appear here. If you cannot see your changes, ensure that you are in the correct fork.
-    4. When prompted, add a message to summarise the pull request. If you pushed multiple versions of the document during editing, this message summarises all of them. Note your commit messages are alse preserved and submitted with the pull request.
+    3. Select "Pull Requests", then select "New Pull Request". Your pushed changes should appear here. If you cannot see your changes, ensure that you are in the correct fork.
+    4. When prompted, add a message to summarise the pull request. If you pushed multiple versions of the document during editing, this message summarises all of them. Note your commit messages are also preserved and submitted with the pull request.
     5. Select the option to submit the request.
 
 After a pull request, your change is submitted to the Hornbill Documentation team. They will review the proposed changes and decide whether to approve them for inclusion in the Hornbill documentation.
