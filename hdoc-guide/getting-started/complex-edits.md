@@ -90,7 +90,7 @@ Follow these steps to edit and publish documents:
 7. Create a Pull Request from Your Fork to the Hornbill Main Branch. To to this:
     1. Go online to your GitHub account. 
     2. Navigate to your fork of the HDocBook repository. 
-    3. Select "Pull Requests", then select "New Pull Request". Your pushed changed should appear here.
+    3. Select "Pull Requests", then select "New Pull Request". Your pushed changed should appear here. If you cannot see your changes, ensure that you are in the correct fork.
     4. When prompted, add a message to summarise the pull request. If you pushed multiple versions of the document during editing, this message summarises all of them. Note your commit messages are alse preserved and submitted with the pull request.
     5. Select the option to submit the request.
 
