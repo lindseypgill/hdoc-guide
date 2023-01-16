@@ -24,7 +24,7 @@ With this workflow, you edit and preview Hornbill's GitHub documentation content
 This guide recommends using Microsoft's Visual Studio as a text editor, but you can use an alternative of your choice. Visual studio is free, well-supported, and has a large ecosystem of extensions that can be useful when editing documentation.
 
 ## Before you begin
-The following steps must be complete before you can edit and commit Hornbill documenation:
+The following steps must be complete before you can edit and commit Hornbill documentation:
 1. Register for a free [GitHub account](https://github.com/signup) if you do not already have one.
 2. Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
 3. Follow these instructions to [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git).
