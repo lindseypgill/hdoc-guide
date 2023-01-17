@@ -5,7 +5,7 @@ layout: article-toc
 
 Creating good quality documentation is challenging, even aside from the challenge of knowing the subject and writing about it in a way that readers will be able to consume. There is a lot involved in taking basic written content and publishing it in a format that is consistent, reliable, accessible and scalable.  
 
-Traditional documentation systems are generally built around "what you see is what you get" editing tools and proprietary formats/publishing schemes. Hornbill has chosen to use a more contemporary approach of content development, using simple text-based Markdown. Markdown has many benefits over proprietary formats, the most significant benefit being a complete abstraction of content from the design/presentation needs. The use of Markdown helps you, as a content creator, focus on the content, and removes the distractions of styling, publishing and deploying content. 
+Traditional documentation systems are generally built around "what you see is what you get" editing tools and proprietary formats/publishing schemes. Hornbill has chosen to take a more contemporary approach towards content development, using simple text-based Markdown. Markdown has many benefits over proprietary formats, the most significant benefit being a complete abstraction of content from the design/presentation needs. The use of Markdown helps you, as a content creator, focus on the content, and removes the distractions of styling, publishing and deploying content. 
 
 As well as basic writing skills and the requisite subject matter expertise, writing documentation at scale also needs a consistent, well defined, easy to use workflow for content creation, preview and publication. The Hornbill Docs in-house document system provides all of this in an end-to-end, tool and system supported workflow, which handles the three main process steps of Content Development, Build/Publishing and Consumption. 
 
@@ -20,7 +20,7 @@ The three key stages of the document publishing lifecycle are explained in this 
 
 ## 1. Content Development
 
-The primary capability of any documentation system is facilitating the creation of content. When developing Hornbill Docs content, your work unit is a **HDocBook**. Each Book is a separate, stand-alone project. The source content for a Book is simply made up of a folder structure containing a any number of documents which can be authored in Markdown, or as custom HTML. This structure is called HDocBook. The workload for content creation is designed around standard, easy to use development tools and plugins, and the ability to accurately preview your content during the content development process. Some documentation (for example, APIs and other content that is defined in metadata such as XML or JSON) can be automatically extracted from source code comments or markup.  
+The primary capability of any documentation system is facilitating the creation of content. When developing Hornbill Docs content, your work unit is a **HDocBook**. Each Book is a separate, stand-alone project. The source content for a Book is simply made up of a folder structure containing any number of documents which can be authored in Markdown, or as custom HTML. This structure is called HDocBook. The workload for content creation is designed around standard, easy to use development tools and plugins, and the ability to accurately preview your content during the content development process. Some documentation (for example, APIs and other content that is defined in metadata such as XML or JSON) can be automatically extracted from source code comments or markup.  
 
 ## 2. Build and Publish
 
@@ -28,4 +28,4 @@ Publishing a Book involves building the document source, rendering Markdown into
 
 ## 3. Consumption
 
-Consuming documentation is really describing the implementation of the web server and the Docs UI Web App that makes up the [website](https://docs.hornbill.com) that all published documentation is consumed from. The website provides the ability to read Books, browse the Book library, and search for content. 
+Consuming documentation is really describing the implementation of the web server and the Docs UI Web App that makes up the [website](https://docs.hornbill.com) that all published documentation is consumed from. The website provides the ability to search for content, browse the Book library and read Books. 

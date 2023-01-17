@@ -34,7 +34,7 @@ Minor edits are easy using GitHub and its basic editing and Markdown preview cap
 9. Review the changes and make sure you are happy with them, then press the "Create Pull Request" button.
 10. Confirm by pressing the "Create Pull Request" button.
 
-::: Important
+::: important
 You will notice that the Markdown content can be previewed in GitHub. While the content is rendered, GitHub only supports the basic CommonMark specification, so features such a this info panel will not appear correctly there. Hornbill Docs uses a different specification of Markdown which will render them correctly.  
 :::
 

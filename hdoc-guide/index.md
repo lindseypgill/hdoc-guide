@@ -14,7 +14,7 @@ The Hornbill Docs system is a complete end-to-end system for creating and publis
 
 Sharing your expertise with others on Hornbill Docs helps everyone in our community achieve more. Use the information in this guide to learn how to make updates to an existing published article, or publish new content to Hornbill Docs.
 
-Almost all of the documents available on Hornbill Docs are published as open-source projects, hosted on [GitHub](https://github.com/Hornbill-Docs). Documents that are published on GitHub can be forked by anyone wishing to contribute to Hornbill's documentation, who can make edits/additions to the content and submit a pull request to the Hornbill Docs team for review and inclusion in future revisions of the published documentation.
+Almost all of the documents available on Hornbill Docs are published as open-source projects, hosted on [GitHub](https://github.com/Hornbill-Docs). Documents that are published on GitHub can be forked by anyone wishing to contribute to Hornbill's documentation, who can make changes/additions to the content and submit a pull request to the Hornbill Docs team for review and inclusion in future revisions of the published documentation.
 
 This open-source approach improves communication and facilitates better knowledge sharing, helping our product and  content teams, and giving customers access to the collective knowledge. Contribution to Hornbill's documentation is moderated, ensuring content meets our quality and inclusion standards.  
 
