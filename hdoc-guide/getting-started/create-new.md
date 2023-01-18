@@ -4,7 +4,7 @@ This document will guide you through the process of creating a new Book.
 ## Background to Publishing on Hornbill Docs
 To understand the process of creating a new Book, it's important to have a clear understanding of what the Hornbill Documentation system is. Fundamentally, the Hornbill Docs platform is a documentation publishing system, specifically designed for publishing official Hornbill documentation to the [docs.hornbill.com](https://docs.hornbill.com) website. 
 
-Hornbill's documentation system borrows the concepts of physical paper book publishing, something very familiar and intuitive to most of us. The Hornbill documentation site id our "public library" of documents, and just like a physical library, in our digital library, we organize individual units of documentation as "Books". Each Book is made up of one or more individual articles (think pages or chapters), with a "table of contents" that organizes the article(s) into a navigable structure, much like the table of contents does that you find near the front of in a traditional paper book. 
+Hornbill's documentation system borrows the concepts of physical paper book publishing, something very familiar and intuitive to most of us. The Hornbill documentation site is our "public library" of documents, and just like a physical library, in our digital library, we organize individual units of documentation as "Books". Each Book is made up of one or more individual articles (think pages or chapters), with a "table of contents" that organizes the article(s) into a navigable structure, much like the table of contents does that you find near the front of in a traditional paper book. 
 
 Part of the Hornbill Docs system is a taxonomy, which you can think of as the classifications and organized areas of a physical library (such as literature, physics, computer science and fiction). The taxonomy is used to tag and group collections of Books and organize them into a logical, easily navigable document Library.   
 
@@ -36,7 +36,7 @@ When proposing a new Book to be published, the following information is required
 - Table of Contents (optional)
   - Ideally this would be useful at proposal stage, but we understand that it's often not possible. 
 
-Once the Book has boon proposed, the Hornbill Docs team will review the proposal and either accept it for creation, or, provide feedback on what needs to be changed in order to achieve acceptance.
+Once the Book has been proposed, the Hornbill Docs team will review the proposal and either accept it for creation, or, provide feedback on what needs to be changed in order to achieve acceptance.
 
 ## Writing a Book for Hornbill Docs
 We recognize that not everyone is an aspiring author or technical writer, and it's often the case that those who are subject matter experts are not writers and do not enjoy the process of writing documentation. The Hornbill Docs team will look at the writing needs on a Book-by-Book basis to figure out the best way to go about creating and developing any given Book. In some cases, the Hornbill Docs team may take on writing the Book, working with internal Subject Matter Experts to extract and capture knowledge required, or, we can use external writers or independent subject matter experts, or, any combination of those things. 
