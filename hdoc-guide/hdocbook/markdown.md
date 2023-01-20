@@ -155,3 +155,138 @@ The basic Markdown syntax you should use to embed an image in your content is:
 ``` md
 ![Alt Text](/path/to/image.jpg)
 ```
+
+## Links
+
+For information on syntax for links, see [Use links in documentation](how-to-write-links.md)
+
+
+## Lists - Numbered and Bulleted
+
+### Numbered List
+
+To create a numbered list, you can use any numbers, but for consistency its best to just use all 1's and the rendering process 
+will take care of sequencing the numbers correctly for you. The numbers are rendered in ascending order sequentially. For increased  readability in markdown, you can increment your list numbers manually.
+
+```md
+1. The first item
+1. The second item in the parent list
+   1. and this is the first child item
+   2. in a nested numbered list
+1. The third item, and so on...
+```
+
+This renders as follows:
+
+1. The first item
+1. The second item in the parent list
+   1. and this is the first child item
+   2. in a nested numbered list
+1. The third item, and so on...
+
+### Bulleted List
+
+You can create a bulleted list using either `-` or `*` followed by a space at the start of each item, only use one or the other, stick to that throughout the entire article:
+
+```md
+* The first item
+* The second item in the parent list
+   * and this is the first child item
+   * in a nested numbered list
+* The third item, and so on...
+```
+
+This renders to a bullited list follows:
+
+* This is
+* a parent bulleted list
+  * and this is
+  * a nested bulleted list
+* All done!
+
+
+## Superscript / Subscript
+
+Subscript and superscript are "inline" styles used nornally for technical documentation.  Its generally a bad idea to use these for creating smaller text items, like notes under images and so on, this should really only be used in a context that requires subscript/superscript for technical accruacy for things like  formulas etc.
+
+To get superscript or subscript we are using the in-line HTML feature of the markdown processor:
+
+```html
+Get <sub>subscript</sub> like this
+```
+
+Which will render:
+
+Get <sub>subscript</sub> like this
+
+```html
+And get <sup>superscript</sup> like this.
+```
+
+Which will render:
+
+And get <sup>superscript</sup> like this.
+
+## Tables
+
+Markdown provides a simple way to create a table using the `|` pipe and `-` hypen symbols. An example of 
+a simple table is shown below
+
+```md
+|Coulmn Header 1 |Col 2   | Col Three|
+|---------------|--------|----------|
+|any informaiton|in your |table |
+|and you dont need to |worry too much about |alignment|
+```
+
+And this is what the above renders to:
+
+|Coulmn Header1 |Col 2   | Col Three|
+|---------------|--------|----------|
+|any informaiton|in your |table |
+|and you dont need to |worry too much about |alignment|
+
+To align the table content horizontally you can use colons in the header seperating lines either size of the hypens like this:
+
+```md
+| Left Aligned         |    Center Aligned    |   Right Aligned |
+| :------------------- | :------------------: | ---------------:|
+| Left Here            |      Center Here     |      Right Here |
+| 1.00                 | 4.57                 | 88            |
+| one                  | two                  | three             |
+```
+
+Renders the following table:
+
+| Left Aligned         |    Center Aligned    |   Right Aligned |
+| :------------------- | :------------------: | ---------------:|
+| Left Here            |      Center Here     |      Right Here |
+| 1.00                 | 4.57                 | 88            |
+| one                  | two                  | three             |
+
+::: tip
+If you want an more interactive way to create a table you can use any one of a number of on-line markdown table generators
+
+- [TableConvert](https://tableconvert.com/markdown-generator)
+- [Tables Generator](http://www.tablesgenerator.com/markdown_tables)
+:::
+
+### Data matrix tables
+
+You can create a data matrix table like this:
+
+```md
+|              |column 1 |Column 2|
+|--------------|---------|--------|
+|**Row 1 Name**|Data 1a  |Data 2a |
+|**Row 2 Name**|Cell 1b  |Data 2b |
+```
+
+The example renders as:
+
+|              |column 1 |Column 2|
+|--------------|---------|--------|
+|**Row 1 Name**|Data 1a  |Data 2a |
+|**Row 2 Name**|Cell 1b  |Data 2b |
+
+This is really the same as any other table, except every entry in the first column is styled bold (`**bold**`) using normal bold syntax 
