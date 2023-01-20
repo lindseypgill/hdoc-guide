@@ -1,7 +1,8 @@
 ---
+title: Content Creation Overview
 layout: article-toc
 ---
-# Content Creation Primer
+# Content Creation Overview
 
 Creating good quality documentation is challenging, even aside from the challenge of knowing the subject and writing about it in a way that readers will be able to consume. There is a lot involved in taking basic written content and publishing it in a format that is consistent, reliable, accessible and scalable.  
 
