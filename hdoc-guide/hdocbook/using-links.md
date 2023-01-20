@@ -19,8 +19,7 @@ An external link is any valid fully-qualified URL to a system other than the Hor
 [Google in the UK](https://about.google/google-in-uk/)
 ```
 
-Would render as: -
-[Google in the UK](https://about.google/google-in-uk/)
+Would render as: [Google in the UK](https://about.google/google-in-uk/)
 
 
 An internal link, is a link to another article or resource within the Hornbill Docs system.  Links to other pages are generally opened within the same browser session, updating the navigation history etc, so you can use the Back button to go to the previous page as the user navigates around your documentation content
@@ -28,8 +27,7 @@ An internal link, is a link to another article or resource within the Hornbill D
 ```md
 [Using Links](/hdoc-guide/hdocbook/using-links)
 ```
-Would render as: -
-[Using Links](/hdoc-guide/hdocbook/using-links)
+Would render as: [Using Links](/hdoc-guide/hdocbook/using-links)
 
 It should be noted that when you specify a link to another page, that page is typically a markdown file with a .md file extension.  However you should **never** include the .md part in any internal link. This is because the Hornbill Docs system generates static site content at build time, and markdown is typically transformed to a .html file.  Both the 'hdoc Preview Server' and Hornbill documentation servers will locate the correct resource based on the URL without the extension. 
 
