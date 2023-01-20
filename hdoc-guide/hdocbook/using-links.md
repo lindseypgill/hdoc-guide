@@ -53,7 +53,7 @@ When specifying an internal URL as a link to an Article, you should never specif
 Which would render the following link: [Using Links](/hdoc-guide/hdocbook/using-links)
 
 
-## Links to third-party sites
+## Linking To Third-Party Sites
 
 The purpose of the Hornbill Docs site is primarily to provide access to Hornbill's documentation. With that in mind we want to ensure that links to third-party sites while sometimes useful, are kept to a minimum.  Its in the best interest of the user experience to minimize the amount of "site exit" links, so when creating these, we should **always** consider the following: -
 
