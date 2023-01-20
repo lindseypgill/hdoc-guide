@@ -67,6 +67,10 @@
                                 "link": "hdoc-guide/hdocbook/markdown"
                             },
                             {
+                                "text": "Using Links In Documentation",
+                                "link": "hdoc-guide/hdocbook/using-links"
+                            },
+                            {
                                 "text": "Content Layout Templates",
                                 "link": "hdoc-guide/hdocbook/layout-templates"
                             },
