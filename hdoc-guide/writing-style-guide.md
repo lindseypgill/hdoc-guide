@@ -1,5 +1,5 @@
 # Writing and Content Style Guide
-When publishing content, we do our best to kepp all content contributions consistent, knowing that we will have contributors of all levels with miltiple wirting styles.  To that end we have create a [General Writing Style Guide](/style-guide/) to provide some gaurd rails in terms of our content voice and writing style. 
+When publishing content, we do our best to keep all content contributions consistent, knowing that we will have contributors of all levels with miltiple wirting styles.  To that end we have create a [General Writing Style Guide](/style-guide/) to provide some gaurd rails in terms of our content voice and writing style. 
 
 ## Graphics and Illustrations
 When creating content that requires illustrations, info graphics and diagrams you should aim to create graphic assets rendered in Scalable Vector Graphics (SVG) format.  
