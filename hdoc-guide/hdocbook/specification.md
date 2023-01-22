@@ -9,7 +9,7 @@ The folder structure of a HDocBook project is organized as a typical Node.js ass
 
 - The root folder contains a hdocbook-project.json file, which is required and used by the preview server and document build tools to identify the Book ID (docId) for the project.
 - The root folder of the project must contain a folder whose name is the same as the Book ID for the project. All HDocBook content should appear inside this folder. 
-- The '/resources' folder.  When creating content, for example images and illustrations, while the resultant image will be included within the published content, you should also keep any source files (for example photoshop or powerpoint files) that are used in the creation of the images. Yhis way, should the image need to be updated in the future, we will have the source code for that image to hand.  
+- The '/resources' folder.  When creating content, for example images and illustrations, while the resultant image will be included within the published content, you should also keep any source files (for example photoshop or powerpoint files) that are used in the creation of the images. This way, should the image need to be updated in the future, we will have the source code for that image to hand.  
 
 ### Folder Structure Example
 ``` md
