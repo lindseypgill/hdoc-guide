@@ -9,108 +9,104 @@
     "audience": ["public"],
     "languages": ["en", "fr"],
     "navigation": {
+        "text": "Welcome",
+        "expand": true,
         "items": [
             {
-                "text": "Introduction",
+                "text": "Welcome",
+                "link": "hdoc-guide/index"
+            },
+            {
+                "text": "Concepts",
                 "expand": true,
                 "items": [
                     {
-                        "text": "Welcome",
-                        "link": "hdoc-guide/index"
+                        "text": "Overview",
+                        "link": "hdoc-guide/overview"
                     },
                     {
-                        "text": "Concepts",
-                        "expand": true,
-                        "items": [
-                            {
-                                "text": "Overview",
-                                "link": "hdoc-guide/overview"
-                            },
-                            {
-                                "text": "HDocBook",
-                                "link": "hdoc-guide/concepts/hdocbook"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Contribution Guide",
-                        "expand": true,
-                        "items": [
-                            {
-                                "text": "Getting Started",
-                                "link": "hdoc-guide/getting-started/index"
-                            },
-                            {
-                                "text": "Simple Edits Workflow",
-                                "link": "hdoc-guide/getting-started/simple-edits"
-                            },
-                            {
-                                "text": "Complex Edits Workflow",
-                                "link": "hdoc-guide/getting-started/complex-edits"
-                            },
-                            {
-                                "text": "Creating a New Book",
-                                "link": "hdoc-guide/getting-started/create-new"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "HDocBook Reference",
-                        "expand": true,
-                        "items": [
-                            {
-                                "text": "Specification",
-                                "link": "hdoc-guide/hdocbook/specification"
-                            },
-                            {
-                                "text": "Markdown",
-                                "link": "hdoc-guide/hdocbook/markdown"
-                            },
-                            {
-                                "text": "Using Links In Documentation",
-                                "link": "hdoc-guide/hdocbook/using-links"
-                            },
-                            {
-                                "text": "Content Layout Templates",
-                                "link": "hdoc-guide/hdocbook/layout-templates"
-                            },
-                            {
-                                "text": "Frontmatter",
-                                "link": "hdoc-guide/hdocbook/frontmatter"
-                            },
-                            {
-                                "text": "Server Variables",
-                                "link": "hdoc-guide/hdocbook/server-variables"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Contributing",
-                        "expand": true,
-                        "items": [
-                            {
-                                "text": "Content Writing & Style Guide",
-                                "link": "hdoc-guide/writing-style-guide"
-                            },
-                            {
-                                "text": "Code of Conduct",
-                                "link": "hdoc-guide/contributing/code-of-conduct"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Other Useful Resources",
-                        "link": "hdoc-guide/additional-resources"
-                    },
-                    {
-                        "text": "Attribution & Thanks",
-                        "link": "hdoc-guide/attribution"
-                    },
-                    {
-                        "text": "*TODO*",
-                        "link": "hdoc-guide/todo"
+                        "text": "HDocBook",
+                        "link": "hdoc-guide/concepts/hdocbook"
                     }
                 ]
+            },
+            {
+                "text": "Contribution Guide",
+                "expand": true,
+                "items": [
+                    {
+                        "text": "Getting Started",
+                        "link": "hdoc-guide/getting-started/index"
+                    },
+                    {
+                        "text": "Simple Edits Workflow",
+                        "link": "hdoc-guide/getting-started/simple-edits"
+                    },
+                    {
+                        "text": "Complex Edits Workflow",
+                        "link": "hdoc-guide/getting-started/complex-edits"
+                    },
+                    {
+                        "text": "Creating a New Book",
+                        "link": "hdoc-guide/getting-started/create-new"
+                    }
+                ]
+            },
+            {
+                "text": "HDocBook Reference",
+                "expand": true,
+                "items": [
+                    {
+                        "text": "Specification",
+                        "link": "hdoc-guide/hdocbook/specification"
+                    },
+                    {
+                        "text": "Markdown",
+                        "link": "hdoc-guide/hdocbook/markdown"
+                    },
+                    {
+                        "text": "Using Links In Documentation",
+                        "link": "hdoc-guide/hdocbook/using-links"
+                    },
+                    {
+                        "text": "Content Layout Templates",
+                        "link": "hdoc-guide/hdocbook/layout-templates"
+                    },
+                    {
+                        "text": "Frontmatter",
+                        "link": "hdoc-guide/hdocbook/frontmatter"
+                    },
+                    {
+                        "text": "Server Variables",
+                        "link": "hdoc-guide/hdocbook/server-variables"
+                    }
+                ]
+            },
+            {
+                "text": "Contributing",
+                "expand": true,
+                "items": [
+                    {
+                        "text": "Content Writing & Style Guide",
+                        "link": "hdoc-guide/writing-style-guide"
+                    },
+                    {
+                        "text": "Code of Conduct",
+                        "link": "hdoc-guide/contributing/code-of-conduct"
+                    }
+                ]
+            },
+            {
+                "text": "Other Useful Resources",
+                "link": "hdoc-guide/additional-resources"
+            },
+            {
+                "text": "Attribution & Thanks",
+                "link": "hdoc-guide/attribution"
+            },
+            {
+                "text": "*TODO*",
+                "link": "hdoc-guide/todo"
             }
         ]
     }
