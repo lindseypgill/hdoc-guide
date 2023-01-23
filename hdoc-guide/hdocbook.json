@@ -9,12 +9,10 @@
     "audience": ["public"],
     "languages": ["en", "fr"],
     "navigation": {
-        "text": "Welcome",
-        "expand": true,
         "items": [
             {
                 "text": "Welcome",
-                "link": "hdoc-guide"
+                "link": "hdoc-guide/welcome"
             },
             {
                 "text": "Concepts",
@@ -36,7 +34,7 @@
                 "items": [
                     {
                         "text": "Getting Started",
-                        "link": "hdoc-guide/getting-started"
+                        "link": "hdoc-guide/getting-started/home"
                     },
                     {
                         "text": "Simple Edits Workflow",
