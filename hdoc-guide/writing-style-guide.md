@@ -41,10 +41,10 @@ The following monochromatic color pallets are recommended for use with illustrat
 
 <table style="width: 100%;">
     <tr style="height: 100px">
-        <td style="background-color: #c0c0c0; color: #ffffff">#85D2FF</td>
-        <td style="background-color: #a0a0a0; color: #ffffff">#219BFF</td>
-        <td style="background-color: #808080; color: #ffffff">#007ADB</td>
-        <td style="background-color: #606060; color: #ffffff">#0065CB</td>
-        <td style="background-color: #404040; color: #ffffff">#0C4C8C</td>
+        <td style="background-color: #c0c0c0; color: #ffffff">#C0C0C0</td>
+        <td style="background-color: #a0a0a0; color: #ffffff">#A0A0A0</td>
+        <td style="background-color: #808080; color: #ffffff">#808080</td>
+        <td style="background-color: #606060; color: #ffffff">#606060</td>
+        <td style="background-color: #404040; color: #ffffff">#404040</td>
     </tr>
 </table>
