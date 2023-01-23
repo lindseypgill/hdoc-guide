@@ -67,6 +67,10 @@
                         "link": "hdoc-guide/hdocbook/using-links"
                     },
                     {
+                        "text": "Reusable Content",
+                        "link": "hdoc-guide/hdocbook/reusable-content"
+                    },
+                    {
                         "text": "Content Layout Templates",
                         "link": "hdoc-guide/hdocbook/layout-templates"
                     },

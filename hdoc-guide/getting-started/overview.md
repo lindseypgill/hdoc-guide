@@ -1,4 +1,4 @@
-# Contributing Overview
+# Getting Started with Contributing
 
 The Hornbill Docs team publishes most of its documentation on GitHub. Each HDocBook has its own public repository, and anyone is free to contribute to Hornbill Docs should they wish. The process is simple and makes use of readily available and free tools—simply follow this guide to learn how. 
 ## GitHub
