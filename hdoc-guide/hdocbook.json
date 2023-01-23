@@ -9,7 +9,6 @@
     "audience": ["public"],
     "languages": ["en", "fr"],
     "navigation": {
-        "text": "Welcome",
         "expand": true,
         "items": [
             {
