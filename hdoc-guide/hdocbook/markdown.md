@@ -157,7 +157,7 @@ The basic Markdown syntax you should use to embed an image in your content is:
 ```
 
 ## Links
-For information on using links, see [Using Links In Documentation](/hdoc-guide/hdocbook/using-links.md)
+For information on using links, see [Using Links In Documentation](/hdoc-guide/hdocbook/using-links)
 
 ## Lists - Numbered and Bulleted
 

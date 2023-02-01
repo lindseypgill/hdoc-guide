@@ -6,9 +6,9 @@ This guide explains how to set up and configure the Advanced Editing workflow fo
 
 The main benefit of the advanced editing workflow over the Basic Editing workflow is being able to preview documents in a browser window as you work on them.
 
-The Advanced Edits workflow is more complex to setup and configure than the [Simple Edits workflow](/_books/hdoc-guide/hdocbook/sinple-edits) as you need to install a number of dependencies and tools. You will also need to register a free account with a third-party, GitHub.
+The Advanced Edits workflow is more complex to setup and configure than the [Simple Edits workflow](/_books/hdoc-guide/getting-started/simple-edits) as you need to install a number of dependencies and tools. You will also need to register a free account with a third-party, GitHub.
 
-Once you are set up, the [Document editing and publishing workflow](/_books/hdoc-guide/hdocbook/complex-edits/Document-editing-and-publishing-workflow) is relatively straightforward.
+Once you are set up, the [Document editing and publishing workflow](/_books/hdoc-guide/getting-started/complex-edits) is relatively straightforward.
 
 ## Overview
 The advanced editing workflow uses around Hornbill's hdoc-tools is a command line extension of Node.js that allows you to preview Hornbill documentation in a browser window.
@@ -92,16 +92,16 @@ Follow these steps to edit and publish documents:
     1. Go online to your GitHub account. 
     2. Navigate to your fork of the HDocBook repository. 
     3. Select "Pull Requests", then select "New Pull Request". Your pushed changes should appear here. If you cannot see your changes, ensure that you are in the correct fork.
-    4. When prompted, add a message to summarise the pull request. If you pushed multiple versions of the document during editing, this message summarises all of them. Note your commit messages are also preserved and submitted with the pull request.
+    4. When prompted, add a message to summarize the pull request. If you pushed multiple versions of the document during editing, this message summarizes all of them. Note your commit messages are also preserved and submitted with the pull request.
     5. Select the option to submit the request.
 
 After a pull request, your change is submitted to the Hornbill Documentation team. They will review the proposed changes and decide whether to approve them for inclusion in the Hornbill documentation.
 
 # Next steps
 
-Refer back to the [Document editing and publishing workflow](/_books/hdoc-guide/hdocbook/complex-edits/Document-editing-and-publishing-workflow) for future Hornbill document editing.
+Refer back to the [Document editing and publishing workflow](/_books/hdoc-guide/getting-started/complex-edits) for future Hornbill document editing.
 
-You can use a combination of this Advanced Edits workflow and the [Simple Edits workflow](/_books/hdoc-guide/hdocbook/sinple-edits) depending on your need for the previewing feature.
+You can use a combination of this Advanced Edits workflow and the [Simple Edits workflow](/_books/hdoc-guide/getting-started/simple-edits) depending on your need for the previewing feature.
 
 ## Additional resources
 
