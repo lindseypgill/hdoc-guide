@@ -1,13 +1,13 @@
 # Writing and Content Style Guide
-When publishing content, we do our best to keep all content contributions consistent, knowing that we will have contributors of all levels with miltiple wirting styles.  To that end we have create a [General Writing Style Guide](/style-guide/) to provide some gaurd rails in terms of our content voice and writing style. 
+When publishing content, we do our best to keep all content contributions consistent, knowing that we will have contributors of all levels with multiple writing styles. To that end we have created a [General Writing Style Guide](/style-guide/) to provide some guard rails in terms of our content voice and writing style. 
 
 ## Graphics and Illustrations
-When creating content that requires illustrations, info graphics and diagrams you should aim to create graphic assets rendered in Scalable Vector Graphics (SVG) format.  
+When creating content that requires illustrations, info graphics, and diagrams you should aim to create graphic assets rendered in Scalable Vector Graphics (SVG) format.  
 
-Content on Hornbill Docs can be rendered in both "light mode" and "dark mode" and this should be considered when designing graphics for inclusion.  Using two monochromatic scales one based on a neutral grey scale and the other based on the Hornbill Docs website accent color, you can create surprisingly sophisticated images.  By using the recommended color pallets as the basis for your images color theme you will help in maintaining consistency in the Hornbill Docs website appearance. 
+Content on Hornbill Docs can be rendered in both "light mode" and "dark mode" and this should be considered when designing graphics for inclusion. Using two monochromatic scales one based on a neutral grey scale and the other based on the Hornbill Docs website accent color, you can create surprisingly sophisticated images. By using the recommended color palettes as the basis for your image's color theme you will help in maintaining consistency in the Hornbill Docs website appearance. 
 
 ::: tip
-If you use the exact color values defined below, this will help the Hornbill Docs system provide  automatic color adjustments for dark/light, mode as well as high contrast modes for accessibility. 
+If you use the exact color values defined below, this will help the Hornbill Docs system provide automatic color adjustments for dark/light mode as well as high contrast modes for accessibility. 
 :::
 
 When creating an SVG or PNG (with a transparent background/alpha channel), you should choose color contrasts that work well in both dark and light mode. When selecting colors, test in both light and dark mode to make sure images are visually easy to read and understand. 
@@ -22,7 +22,7 @@ You can test the dark/light mode rendering by switching modes at the top right o
 </table>
 
 
-The following monochromatic color pallets are recommended for use with illustrations and other image assets to ensure there is a consistency of styling and appearance across documents. 
+The following monochromatic color palettes are recommended for use with illustrations and other image assets to ensure there is a consistency of styling and appearance across documents. 
 
 ### Accent Color
 
