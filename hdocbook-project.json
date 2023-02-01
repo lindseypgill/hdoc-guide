@@ -1,3 +1,7 @@
 {
-    "docId": "hdoc-guide"
+    "docId": "hdoc-guide",
+    "pdfGeneration": {
+        "enable": true,
+        "exclude_paths": []
+    } 
 }
