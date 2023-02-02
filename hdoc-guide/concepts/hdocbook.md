@@ -1,4 +1,4 @@
-# Hornbill Docs - HDocBook
+# HDocBook Overview
 
 A **HDocBook** (or book for short) is the name we give to a collection of individual, but related Articles.  As well as including a collection of written articles that make up the content of the book, a HDocBook provides the wrapper for containing and referencing supporting assets like images, downloadable files, icons and other static resources.  Like a physical book, this Book Package also includes the definition of a book's primary navigation index and table of contents, as well as other metadata to describe the books position in the Hornbill Docs library taxonomy. Other metadata that helps the Hornbill Docs search function includes information about the book such as subject, summary, keywords, tags and other such metadata that helps keeps books organization, categorized and easily searchable.  You can think of a Book analogous to a physical book. 
 
