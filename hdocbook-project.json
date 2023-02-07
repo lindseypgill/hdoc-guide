@@ -4,7 +4,7 @@
         "enable": true,
         "exclude_paths": []
     },
-    "linkValidation": {
+    "validation": {
         "exclude_links": [
             "https://docs.hornbill.com/style-guide/",
             "http://127.0.0.1:3000/"
