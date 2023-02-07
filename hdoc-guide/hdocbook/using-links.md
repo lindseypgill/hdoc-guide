@@ -37,7 +37,7 @@ Its helpful to understand the structure of the Hornbill Docs system.  URL's purp
 
 The Hornbill Docs URL is made up as follows: -
 
-https://docs.hornbill.com/[language-code]/{book-id}/path/to/article
+`https://docs.hornbill.com/[language-code]/{book-id}/path/to/article`
 
 - **language-code** - this is an optional segment, but if provided, tells the docs server which language variation to serve (if available). Examples might be en-gb, de-de, us etc...
 - **book-id** - every published book is allocated a unique identifier. The book-id is that unique identifier. 

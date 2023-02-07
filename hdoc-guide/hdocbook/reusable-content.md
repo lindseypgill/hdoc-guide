@@ -8,4 +8,4 @@ The include directive takes the following form...
 [ [INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/agreements/code-of-conduct.md] ]
 </code>
 
-(without the space between the two ['s) which will inject the content from the file code-of-content.md into your article
+(without the space between the two ['s) which will inject the content from the file `code-of-content.md` into your article
