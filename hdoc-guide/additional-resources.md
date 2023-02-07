@@ -25,5 +25,5 @@ If you want to learn more about tools and technologies that you will be using wh
 - [GitHub Quick Start](https://docs.github.com/en/get-started/quickstart/set-up-git): an online tutorial to get you going with GitHub
 - [GitHub User Guides](https://guides.github.com/): main GitHub documentation
 - [GitHub learning resources](https://help.github.com/articles/git-and-github-learning-resources/): other GitHub related resources
-- [GitHub training](https://services.github.com/training/): tutorials and training courses from GitHub
+- [GitHub training](https://training.github.com/): tutorials and training courses from GitHub
 - [Glossary](https://help.github.com/articles/github-glossary): a handy glossary of git and GitHub terms
