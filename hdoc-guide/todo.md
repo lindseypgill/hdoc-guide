@@ -14,8 +14,5 @@ Just keeping track of things that need doing as I am thinking about them
 ## 2. Build/Publish Workflow
 * Work not started, this is not really useful for contributors so arguably belongs in another book, we also need to document how to work "our side of the process", like doing builds, publishing documents, accepting Pull Requests into master. 
 
-## 3. docs.hornbill.com Website
-* Work not started, this is not really useful for contributors so arguably belongs in another book
-
-## Other HDocBooks we need
+## 3. Other HDocBooks we need
 * Hornbill Docs Team Guide - a book for internal use, aimed at anyone within the Hornbill Docs team, covers workflows, tools, administering Hornbill Docs GitHub Account, accepting/merging pull requests etc
