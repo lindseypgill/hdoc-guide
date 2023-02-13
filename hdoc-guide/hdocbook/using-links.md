@@ -16,10 +16,10 @@ There are two types of links you can use on the Hornbill Docs platform. Internal
 An external link is any valid fully-qualified URL to a system other than the Hornbill Docs system. Links to other systems will generally open the resource in a new tap or window on your browser. In todays internet its very rare that non-https URLs are used, and its recommended that you always only ever link to secure wen sites.  An example of an external link would be
 
 ```md
-[Google in the UK](https://about.google/google-in-uk/)
+[Google in the UK](https://www.google.co.uk)
 ```
 
-Would render as: [Google in the UK](https://about.google/google-in-uk/)
+Would render as: [Google in the UK](https://www.google.co.uk)
 
 
 An internal link, is a link to another article or resource within the Hornbill Docs system.  Links to other pages are generally opened within the same browser session, updating the navigation history etc, so you can use the Back button to go to the previous page as the user navigates around your documentation content
