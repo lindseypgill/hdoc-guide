@@ -25,5 +25,3 @@ You can think of the Hornbill Docs system as conceptually representative of a tr
 Books can contain textual content, pictures, downloadable assets, embedded video or any other web based resources you would typically find in a web application, and Book content can be created in multiple languages where required.
 
 Books can be created and authored by Hornbill's Documentation Team. However, most Books are created and published as open source to facilitate contributions by our partners, customers and other interested parties. Open source nooks are available in source code format, published on GitHub, making it possible for anyone to fork the Book to their own GitHub account, make changes and submit a pull request to Hornbill's Documentation Team for review and inclusion in the officially published documents.
-
-[Broken Link](https://this.is.a.broken.link)
