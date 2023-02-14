@@ -1,4 +1,4 @@
 # HDocBook documentation
 This is an example of a simple static content documentation project that is compatible with the Hornbill Docs system
 
-Once you have installed hdoc-tools, to preview the documentation in a browser, you can open a terminal window and run the server with the command `hdoc serve` and in a local browser go to the url `http://localhost:3000`
+Once you have installed hdoc-tools, to preview the documentation in a browser, you can open a terminal window and run the server with the command `hdoc serve`, and in a local browser navigate to the url `http://localhost:3000`.
