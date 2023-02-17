@@ -7,7 +7,8 @@
     "validation": {
         "exclude_links": [
             "https://docs.hornbill.com/style-guide/",
-            "http://127.0.0.1:3000/"
+            "http://127.0.0.1:3000/",
+            "mailto:docs@hornbill.com"
         ]
     }
 }
