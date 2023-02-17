@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Welcome to Hornbill Docs Contributor Guide
-The Hornbill Docs system is a complete end-to-end solution for creating and publishing documentation to [Hornbill Docs](https://docs.hornbill.com/) so that our customers, partners and others can browse and search our published documentation. 
+The Hornbill Docs system is a complete end-to-end solution for creating and publishing documentation to [Hornbill Docs](/) so that our customers, partners and others can browse and search our published documentation. 
 
 ## Intended Audience 
 
@@ -10,7 +10,7 @@ This documentation is useful for anyone involved in the development of content f
 
 ## Hornbill Docs Overview
 
-The Hornbill Docs system is a complete end-to-end system for creating and publishing documentation to [Hornbill Docs](https://docs.hornbill.com/) so that our product and customer success teams, customers, partners and any other interested parties can access, and contribute to, our published documentation. 
+The Hornbill Docs system is a complete end-to-end system for creating and publishing documentation to [Hornbill Docs](/) so that our product and customer success teams, customers, partners and any other interested parties can access, and contribute to, our published documentation. 
 
 Sharing your expertise with others on Hornbill Docs helps everyone in our community achieve more. Use the information in this guide to learn how to make updates to an existing published article, or publish new content to Hornbill Docs.
 
@@ -18,7 +18,7 @@ Almost all of the documents available on Hornbill Docs are published as open-sou
 
 This open-source approach improves communication and facilitates better knowledge sharing, helping our product and  content teams, and giving customers access to the collective knowledge. Contribution to Hornbill's documentation is moderated, ensuring content meets our quality and inclusion standards.  
 
-The documentation system is modelled around the notion of a Library of Documents. Each document is called a **Book**, and we call the collection of published Books the **Library**. There is one global library for all published Books that are presented on [Hornbill's documentation website](https://docs.hornbill.com/). 
+The documentation system is modelled around the notion of a Library of Documents. Each document is called a **Book**, and we call the collection of published Books the **Library**. There is one global library for all published Books that are presented on [Hornbill's Documentation Website](/). 
 
 You can think of the Hornbill Docs system as conceptually representative of a traditional book library, where a community (our customers, partners and team members) all have access to a public library (the document website), with all of the Books in that library being organized and categorized into different sections and locations within the library for accessibility. 
 

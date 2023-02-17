@@ -42,7 +42,7 @@ The Hornbill Docs URL is made up as follows: -
 - **language-code** - this is an optional segment, but if provided, tells the docs server which language variation to serve (if available). Examples might be en-gb, de-de, us etc...
 - **book-id** - every published book is allocated a unique identifier. The book-id is that unique identifier. 
 
-When specifying an internal URL as a link to an Article, you should never specify the language-code, this will be taken care of automatically. All internal URL's should ve referenced from the root folder of the Hornbill Docs system. So if you wanted to reference this specific article, you would specify
+When specifying an internal URL as a link to an Article, you should never specify the language-code, this will be taken care of automatically. All internal URL's should ve referenced from the root of the Hornbill Docs system. So if you wanted to reference this specific article, you would specify
 
 ```md
 [Using Links](/hdoc-guide/hdocbook/using-links)

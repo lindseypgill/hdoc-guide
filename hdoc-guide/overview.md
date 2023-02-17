@@ -29,4 +29,4 @@ Publishing a Book involves building the document source, rendering Markdown into
 
 ## 3. Consumption
 
-Consuming documentation is really describing the implementation of the web server and the Docs UI Web App that makes up the [website](https://docs.hornbill.com) that all published documentation is consumed from. The website provides the ability to search for content, browse the Book library and read Books. 
+Consuming documentation is really describing the implementation of the web server and the Docs UI Web App that makes up the [website](/) that all published documentation is consumed from. The website provides the ability to search for content, browse the Book library and read Books. 
