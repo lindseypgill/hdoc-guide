@@ -18,7 +18,7 @@ Almost all of the documents available on Hornbill Docs are published as open-sou
 
 This open-source approach improves communication and facilitates better knowledge sharing, helping our product and  content teams, and giving customers access to the collective knowledge. Contribution to Hornbill's documentation is moderated, ensuring content meets our quality and inclusion standards.  
 
-The documentation system is modelled around the notion of a Library of Documents. Each document is called a **Book**, and we call the collection of published Books the **Library**. There is one global library for all published Books that are presented on [Hornbill's Documentation Website](/). 
+The documentation system is modeled around the notion of a Library of Documents. Each document is called a **Book**, and we call the collection of published Books the **Library**. There is one global library for all published Books that are presented on [Hornbill's Documentation Website](/). 
 
 You can think of the Hornbill Docs system as conceptually representative of a traditional book library, where a community (our customers, partners and team members) all have access to a public library (the document website), with all of the Books in that library being organized and categorized into different sections and locations within the library for accessibility. 
 

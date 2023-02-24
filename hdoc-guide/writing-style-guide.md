@@ -1,10 +1,10 @@
 # Writing and Content Style Guide
-When publishing content, we do our best to keep all content contributions consistent, knowing that we will have contributors of all levels with multiple writing styles. To that end we have created a [General Writing Style Guide](https://docs.hornbill.com/style-guide/) to provide some guard rails in terms of our content voice and writing style. 
+When publishing content, we do our best to keep all content contributions consistent, knowing that we will have contributors of all levels with multiple writing styles. To that end we have created a [General Writing Style Guide](/style-guide/) to provide some guard rails in terms of our content voice and writing style. 
 
 ## Graphics and Illustrations
 When creating content that requires illustrations, info graphics, and diagrams you should aim to create graphic assets rendered in Scalable Vector Graphics (SVG) format.  
 
-Content on Hornbill Docs can be rendered in both "light mode" and "dark mode" and this should be considered when designing graphics for inclusion. Using two monochromatic scales one based on a neutral grey scale and the other based on the Hornbill Docs website accent color, you can create surprisingly sophisticated images. By using the recommended color palettes as the basis for your image's color theme you will help in maintaining consistency in the Hornbill Docs website appearance. 
+Content on Hornbill Docs can be rendered in both "light mode" and "dark mode" and this should be considered when designing graphics for inclusion. Using two monochromatic scales one based on a neutral gray scale and the other based on the Hornbill Docs website accent color, you can create surprisingly sophisticated images. By using the recommended color palettes as the basis for your image's color theme you will help in maintaining consistency in the Hornbill Docs website appearance. 
 
 ::: tip
 If you use the exact color values defined below, this will help the Hornbill Docs system provide automatic color adjustments for dark/light mode as well as high contrast modes for accessibility. 
@@ -37,7 +37,7 @@ The following monochromatic color palettes are recommended for use with illustra
 </table>
 
 
-### Grey Scale 
+### Gray Scale 
 
 <table style="width: 100%;">
     <tr style="height: 100px">
