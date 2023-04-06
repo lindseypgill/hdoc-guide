@@ -97,7 +97,7 @@ Follow these steps to edit and publish documents:
 
 After a pull request, your change is submitted to the Hornbill Documentation team. They will review the proposed changes and decide whether to approve them for inclusion in the Hornbill documentation.
 
-# Next steps
+## Next steps
 
 Refer back to the [Document editing and publishing workflow](/_books/hdoc-guide/getting-started/complex-edits) for future Hornbill document editing.
 
