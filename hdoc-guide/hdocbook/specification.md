@@ -60,6 +60,7 @@ For external contributions, no pull requests that include a version number chang
 |`text`|The text displayed on the navigation view for this navigation item.|
 |`link`|The link to the content page you want this item to navigate to (this is ignored if `items` is present).|
 |`expand`|Set this to "true" you want this item to expand on refresh (assuming there are child navigation items).|
+|`draft`|Set this to "true" you want this item to be in draft mode. This means while the link is still available in the development workflow and preview server, this link will be removed and unavailable when published.  Default if not present is "false"|
 |`items[]`|An array of child navigation items. There are only three levels allowed, so levels defined beyond this are ignored.|
 
 Here is an example configuration, showing the file used to define this HDocBook:
