@@ -124,7 +124,7 @@ Hornbill Docs supports six levels of headings, specified by one through six hash
 
 The above Markdown will render like this. 
 
-# Heading 1 (H1)
+<h1> Heading 1 (H1) </h1>
 ## Heading 2 (H2)
 ### Heading 3 (H3)
 #### Heading 4 (H4)
