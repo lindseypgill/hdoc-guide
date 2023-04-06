@@ -88,7 +88,8 @@ Here is an example configuration, showing the file used to define this HDocBook:
                         "items": [
                             {
                                 "text": "Overview",
-                                "link": "hdoc-guide/overview"
+                                "link": "hdoc-guide/overview",
+                                "draft": true
                             },
                             {
                                 "text": "HDocBook",
