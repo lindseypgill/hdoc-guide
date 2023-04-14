@@ -9,6 +9,9 @@
             "/style-guide/",
             "http://127.0.0.1:3000/",
             "mailto:docs@hornbill.com"
+        ],
+        "exclude_h1_count": [
+            "hdoc-guide/hdocbook/markdown"
         ]
     }
 }
