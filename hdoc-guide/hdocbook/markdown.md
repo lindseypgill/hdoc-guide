@@ -13,7 +13,7 @@ Accordingly, the HDocBook Markdown syntax is also based on [CommonMark](https://
 
 Alerts is a HDocBook Markdown extension that will create block quotes that render on Hornbill H-DOC with colors and icons that indicate call-out information within the document.
 
-Avoid notes, tips, and "important" boxes. Readers tend to skip over them. It's better to put that info directly into the article text.
+Avoid notes, tips, and "important" boxes. Readers tend to skip over them. It's better to put that information directly into the article text.
 
 If you need to use alerts, limit them to one or two per article. Multiple notes should never be next to each other in an article.
 
@@ -163,7 +163,7 @@ For information on using links, see [Using Links In Documentation](/hdoc-guide/h
 
 ### Numbered List
 
-To create a numbered list, you can use any numbers, but for consistency its best to just use all 1's and the rendering process 
+To create a numbered list, you can use any numbers, but for consistency it's best to just use all 1's and the rendering process 
 will take care of sequencing the numbers correctly for you. The numbers are rendered in ascending order sequentially. For increased  readability in markdown, you can increment your list numbers manually.
 
 ```md
@@ -194,7 +194,7 @@ You can create a bulleted list using either `-` or `*` followed by a space at th
 * The third item, and so on...
 ```
 
-This renders to a bullited list follows:
+This renders to a bulleted list follows:
 
 * This is
 * a parent bulleted list
@@ -205,7 +205,7 @@ This renders to a bullited list follows:
 
 ## Superscript / Subscript
 
-Subscript and superscript are "inline" styles used nornally for technical documentation.  Its generally a bad idea to use these for creating smaller text items, like notes under images and so on, this should really only be used in a context that requires subscript/superscript for technical accruacy for things like  formulas etc.
+Subscript and superscript are "inline" styles used normally for technical documentation. It's generally a bad idea to use these for creating smaller text items, like notes under images and so on; this should really only be used in a context that requires subscript/superscript for technical accuracy for things like formulas etc.
 
 To get superscript or subscript we are using the in-line HTML feature of the markdown processor:
 
@@ -227,24 +227,23 @@ And get <sup>superscript</sup> like this.
 
 ## Tables
 
-Markdown provides a simple way to create a table using the `|` pipe and `-` hypen symbols. An example of 
-a simple table is shown below
+Markdown provides a simple way to create a table using the `|` pipe and `-` hyphen symbols. An example of a simple table is shown below.
 
 ```md
-|Coulmn Header 1 |Col 2   | Col Three|
+|Column Header 1 |Col 2   | Col Three|
 |---------------|--------|----------|
-|any informaiton|in your |table |
-|and you dont need to |worry too much about |alignment|
+|any information|in your |table |
+|and you don't need to |worry too much about |alignment|
 ```
 
 And this is what the above renders to:
 
-|Coulmn Header1 |Col 2   | Col Three|
+|Column Header1 |Col 2   | Col Three|
 |---------------|--------|----------|
-|any informaiton|in your |table |
-|and you dont need to |worry too much about |alignment|
+|any information|in your |table |
+|and you don't need to |worry too much about |alignment|
 
-To align the table content horizontally you can use colons in the header seperating lines either size of the hypens like this:
+To align the table content horizontally you can use colons in the header separating lines either size of the hyphens like this:
 
 ```md
 | Left Aligned         |    Center Aligned    |   Right Aligned |
@@ -263,7 +262,7 @@ Renders the following table:
 | one                  | two                  | three             |
 
 ::: tip
-If you want an more interactive way to create a table you can use any one of a number of on-line markdown table generators
+If you want a more interactive way to create a table you can use any one of a number of on-line markdown table generators
 
 - [TableConvert](https://tableconvert.com/markdown-generator)
 - [Tables Generator](http://www.tablesgenerator.com/markdown_tables)
@@ -287,4 +286,4 @@ The example renders as:
 |**Row 1 Name**|Data 1a  |Data 2a |
 |**Row 2 Name**|Cell 1b  |Data 2b |
 
-This is really the same as any other table, except every entry in the first column is styled bold (`**bold**`) using normal bold syntax 
+This is really the same as any other table, except every entry in the first column is styled bold (`**bold**`) using normal bold syntax.
