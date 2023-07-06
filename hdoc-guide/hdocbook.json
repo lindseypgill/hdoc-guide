@@ -22,7 +22,7 @@
         "items": [
             {
                 "text": "Welcome",
-                "link": "hdoc-guide/welcome"
+                "link": "/hdoc-guide/welcome"
             },
             {
                 "text": "Concepts",
@@ -30,11 +30,11 @@
                 "items": [
                     {
                         "text": "Content Creation",
-                        "link": "hdoc-guide/overview"
+                        "link": "/hdoc-guide/overview"
                     },
                     {
                         "text": "HDocBook",
-                        "link": "hdoc-guide/concepts/hdocbook"
+                        "link": "/hdoc-guide/concepts/hdocbook"
                     }
                 ]
             },
@@ -44,19 +44,19 @@
                 "items": [
                     {
                         "text": "Getting Started",
-                        "link": "hdoc-guide/getting-started/overview"
+                        "link": "/hdoc-guide/getting-started/overview"
                     },
                     {
                         "text": "Simple Edits Workflow",
-                        "link": "hdoc-guide/getting-started/simple-edits"
+                        "link": "/hdoc-guide/getting-started/simple-edits"
                     },
                     {
                         "text": "Complex Edits Workflow",
-                        "link": "hdoc-guide/getting-started/complex-edits"
+                        "link": "/hdoc-guide/getting-started/complex-edits"
                     },
                     {
                         "text": "Creating a New Book",
-                        "link": "hdoc-guide/getting-started/create-new"
+                        "link": "/hdoc-guide/getting-started/create-new"
                     }
                 ]
             },
@@ -66,31 +66,31 @@
                 "items": [
                     {
                         "text": "Specification",
-                        "link": "hdoc-guide/hdocbook/specification"
+                        "link": "/hdoc-guide/hdocbook/specification"
                     },
                     {
                         "text": "Markdown",
-                        "link": "hdoc-guide/hdocbook/markdown"
+                        "link": "/hdoc-guide/hdocbook/markdown"
                     },
                     {
                         "text": "Using Links In Documentation",
-                        "link": "hdoc-guide/hdocbook/using-links"
+                        "link": "/hdoc-guide/hdocbook/using-links"
                     },
                     {
                         "text": "Reusable Content",
-                        "link": "hdoc-guide/hdocbook/reusable-content"
+                        "link": "/hdoc-guide/hdocbook/reusable-content"
                     },
                     {
                         "text": "Content Layout Templates",
-                        "link": "hdoc-guide/hdocbook/layout-templates"
+                        "link": "/hdoc-guide/hdocbook/layout-templates"
                     },
                     {
                         "text": "Frontmatter",
-                        "link": "hdoc-guide/hdocbook/frontmatter"
+                        "link": "/hdoc-guide/hdocbook/frontmatter"
                     },
                     {
                         "text": "Server Variables",
-                        "link": "hdoc-guide/hdocbook/server-variables"
+                        "link": "/hdoc-guide/hdocbook/server-variables"
                     }
                 ]
             },
@@ -100,21 +100,21 @@
                 "items": [
                     {
                         "text": "Content Writing & Style Guide",
-                        "link": "hdoc-guide/writing-style-guide"
+                        "link": "/hdoc-guide/writing-style-guide"
                     },
                     {
                         "text": "Code of Conduct",
-                        "link": "hdoc-guide/contributing/code-of-conduct"
+                        "link": "/hdoc-guide/contributing/code-of-conduct"
                     }
                 ]
             },
             {
                 "text": "Other Useful Resources",
-                "link": "hdoc-guide/additional-resources"
+                "link": "/hdoc-guide/additional-resources"
             },
             {
                 "text": "Attribution & Thanks",
-                "link": "hdoc-guide/attribution"
+                "link": "/hdoc-guide/attribution"
             }
         ]
     }
