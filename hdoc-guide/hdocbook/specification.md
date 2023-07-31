@@ -36,6 +36,7 @@ The `validation` property is an object that contains properties to control vario
 
 - `exclude_links`: an array of strings, containing links that should be excluded from the validation process. These could be example links that do not actually exist, or endpoints that are not available to the book build and publishing processes
 - `exclude_spellcheck`: an array of objects, where `document_path` is the root relevant path to the document that should have additional validation exclusions applied, and `words` which is an array of strings, containing a list of words that should be excluded from the US - UK spell check validation
+- `exclude_h1_count`: an array of strings, containing rot-relevant paths of articles within the book that should be excluded from the H1 heading count validation
 
 Here is an example of the project file:
 
@@ -57,10 +58,13 @@ Here is an example of the project file:
             {
                 "document_path": "hdoc-guide/hdocbook/frontmatter.md",
                 "words": [
-                    "labelled",
-                    "favourite"
+                    "labeled",
+                    "favorite"
                 ]
             }
+        ],
+        "exclude_h1_count": [
+            "hdoc-guide/hdocbook/markdown"
         ]
     }
 }
