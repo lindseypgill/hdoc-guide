@@ -78,7 +78,10 @@ Follow these steps to edit and publish documents:
     - `hdoc stats -v`
     :::
 
-6. Commit your edits. To do this:
+6. __Verify the book integrity__
+    Before committing your changes, stop your local server and run __hdoc verify__ which should catch any errors we will otherwise fail during the build process.  This command verifies the hdocbook integrity, making sure config files are correct, paths are set, links work, spelling and grammar complied with our writing standards and so on. 
+
+7. __Commit your edits. To do this:__
     1. Select "Source Control" on the left side of the VS Code screen, then select "Commit". 
     2. A commit message window opens. Add a commit message then select the tick button to commit.
 
@@ -86,9 +89,10 @@ Follow these steps to edit and publish documents:
     A commit message is your description of the changes you have made. The message is read by Hornbill to evaluate your changes. The heading of your message (a summary of your actions) should be no more than 50 characters, and the body (details) should be no more than 72 characters. [See here](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for more information on practices for commit messages. 
     :::
 
-6. Push Your Changes to your Fork. To do this, select the "Sync Changes" button under the "Source Control" menu in Visual Studio.
+8. __Push Your Changes to your Fork__
+    To do this, select the "Sync Changes" button under the "Source Control" menu in Visual Studio.
 
-7. Create a Pull Request from Your Fork to the Hornbill Main Branch. To to this:
+9. __Create a Pull Request from Your Fork to the Hornbill Main Branch. To to this:__
     1. Go online to your GitHub account. 
     2. Navigate to your fork of the HDocBook repository. 
     3. Select "Pull Requests", then select "New Pull Request". Your pushed changes should appear here. If you cannot see your changes, ensure that you are in the correct fork.
