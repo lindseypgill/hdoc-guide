@@ -22,15 +22,50 @@ The folder structure of a HDocBook project is organized as a typical Node.js ass
    ├── package.json
    └── README.md
 ```
+
 ## hdocbook-project.json file
 
-This file contains configuration settings used by the supporting HDocBook development and build tools. The most important property inside this file is the `docId` property, which tells the tools the name of the folder where the hdocbook.json file can be found. Here is an example of the project file:
+This file contains configuration settings used by the supporting HDocBook development and build tools. The most important property inside this file is the `docId` property, which tells the tools the name of the folder where the hdocbook.json file can be found. The file also includes several other properties that control the PDF generation and book validation components when validating and building books. 
+
+The `pdfGeneration` property is an object containing two other properties:
+
+- `enable`: boolean true or false - should the book build process generate PDFs for page content
+- `exclude_paths`: an array of strings, paths (fully qualified root relevant paths, and supports wildcards) that should be excluded from the PDF generation process
+
+The `validation` property is an object that contains properties to control various aspects of book validation:
+
+- `exclude_links`: an array of strings, containing links that should be excluded from the validation process. These could be example links that do not actually exist, or endpoints that are not available to the book build and publishing processes
+- `exclude_spellcheck`: an array of objects, where `document_path` is the root relevant path to the document that should have additional validation exclusions applied, and `words` which is an array of strings, containing a list of words that should be excluded from the US - UK spell check validation
+
+Here is an example of the project file:
 
 ``` json
 {
-    "docId": "hdoc-guide"
+    "docId": "hdoc-guide",
+    "pdfGeneration": {
+        "enable": true,
+        "exclude_paths": [
+            "hdoc-guide/concepts/*"
+        ]
+    },
+    "validation": {
+        "exclude_links": [
+            "http://www.hornbill.com/thefile.pdf",
+            "http://some-url.com/api"
+        ],
+        "exclude_spellcheck": [
+            {
+                "document_path": "hdoc-guide/hdocbook/frontmatter.md",
+                "words": [
+                    "labelled",
+                    "favourite"
+                ]
+            }
+        ]
+    }
 }
 ```
+
 ## hdocbook.json file
 
 Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provides information needed to describe the HDocBook, its navigation, keywords, taxonomy, and other metadata. The following properties are defined at the top level of this file:
