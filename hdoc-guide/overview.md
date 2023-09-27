@@ -13,6 +13,7 @@ As well as basic writing skills and the requisite subject matter expertise, writ
 ![Documentation Architecture]( _books/hdoc-guide/images/hdocbook-architechture.svg )
 
 
+
 ## High-Level Content Workflow
 
 To get the best quality and consistency of documentation on Hornbill Docs there is a well-defined workflow supported by guidelines, specifications and tools. These are designed to make the process as easy and repeatable as possible, by multiple authors, even if they do not work together. This consistency in approach and tooling is required because we wish to encourage the broadest possible audience to help us develop and expand the documentation that helps our user community get the very best out of Hornbill's software. 
