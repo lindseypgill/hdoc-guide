@@ -3,7 +3,7 @@
   "title": "Hornbill Docs Contributor Guide",
   "description": "Information about developing and publishing documentation on the Hornbill Docs (docs.hornbill.com) website",
   "publicSource": "https://github.com/Hornbill-Docs/hdoc-guide",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "productFamily": "hdocs",
   "tags": [
     "hdoc",
@@ -53,6 +53,10 @@
           {
             "text": "Complex Edits Workflow",
             "link": "/hdoc-guide/getting-started/complex-edits"
+          },
+          {
+            "text": "Partner Content Creator Workflow",
+            "link": "/hdoc-guide/getting-started/partner-edits"
           },
           {
             "text": "Creating a New Book",

@@ -1,7 +1,6 @@
-# Partner Editor Workflow
+# Partner Content Creator/Editor Workflow
 
 Sometimes Hornbill will partner with and outsource to professional writers who are working on substantial portions of, or even creating whole documents that will be published on Hornbill Docs site.  Like our internal documentation team, and in these cases, we cab provide direct access to individual documents GitHub repo's allowing the author to work directly on the master repo, removing the need for the Hornbill Docs team and the author to work with Pull Requests, review and merge cycles which is typical in the Complex Edits workflow.  In effect, this is the exact same workflow as we use internally for authoring documents, which we extent to trusted content partners and individuals who are otherwise outside of Hornbill.
-
 
 ## How it Works
 Once we have agreed to work with you on a specific document where there is substantial writing required, we will: -
