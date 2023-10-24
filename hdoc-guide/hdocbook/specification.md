@@ -27,16 +27,26 @@ The folder structure of a HDocBook project is organized as a typical Node.js ass
 
 This file contains configuration settings used by the supporting HDocBook development and build tools. The most important property inside this file is the `docId` property, which tells the tools the name of the folder where the hdocbook.json file can be found. The file also includes several other properties that control the PDF generation and book validation components when validating and building books. 
 
+### _pdfGeneration_ property
 The `pdfGeneration` property is an object containing two other properties:
 
 - `enable`: boolean true or false - should the book build process generate PDFs for page content
 - `exclude_paths`: an array of strings, paths (fully qualified root relevant paths, and supports wildcards) that should be excluded from the PDF generation process
 
+### _validation_ property
 The `validation` property is an object that contains properties to control various aspects of book validation:
 
 - `exclude_links`: an array of strings, containing links that should be excluded from the validation process. These could be example links that do not actually exist, or endpoints that are not available to the book build and publishing processes
 - `exclude_spellcheck`: an array of objects, where `document_path` is the root relevant path to the document that should have additional validation exclusions applied, and `words` which is an array of strings, containing a list of words that should be excluded from the US - UK spell check validation
 - `exclude_h1_count`: an array of strings, containing rot-relevant paths of articles within the book that should be excluded from the H1 heading count validation
+
+### _redirects_ property
+The `redirects` property is an array of objects, where each object describes a permanent redirect.  Once a book is published it is generally not a good idea to either rename a page without providing a server response that redirects permanently (301 or 308), or in the case of a delete, tells the caller that the resource is gone permanently (410).  To achieve this, we are able to specify one or more redirects.  Each redirect object contains the following properties
+
+- `url`: The fully rooted URI that is being deleted, for example "/hdoc-guide/some/place/the-moved-or-deleted-resource"
+- `location`: The new location of the resource. This is optional in the case of a delete.  This is the URL that will be sent in the Location header
+- `code`: The HTTP response code, which can be 301, 308, or 410.  For 301/308 you are required to provide a valid `location` link. This property is optional, if you do not provide a code, the server will send a 410 rsponse code if there is a URL match but no `location` property is not provided. If the location property is provided, then a 308 response code will be sent
+
 
 Here is an example of the project file:
 
@@ -66,7 +76,10 @@ Here is an example of the project file:
         "exclude_h1_count": [
             "hdoc-guide/hdocbook/markdown"
         ]
-    }
+    },
+    "redirects": [
+        { "url": "", "movedTo": "", "code": 301 }
+    ]
 }
 ```
 
