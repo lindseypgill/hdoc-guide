@@ -45,7 +45,7 @@ The `redirects` property is an array of objects, where each object describes a p
 
 - `url`: The fully rooted URI that is being deleted, for example "/hdoc-guide/some/place/the-moved-or-deleted-resource"
 - `location`: The new location of the resource. This is optional in the case of a delete.  This is the URL that will be sent in the Location header
-- `code`: The HTTP response code, which can be 301, 308, or 410.  For 301/308 you are required to provide a valid `location` link. This property is optional, if you do not provide a code, the server will send a 410 rsponse code if there is a URL match but no `location` property is not provided. If the location property is provided, then a 308 response code will be sent
+- `code`: The HTTP response code, which can be 301, 308, or 410.  For 301/308 you are required to provide a valid `location` link. This property is optional, if you do not provide a code, the server will send a 410 response code if there is a URL match but no `location` property is not provided. If the location property is provided, then a 308 response code will be sent
 
 
 Here is an example of the project file:
@@ -78,7 +78,8 @@ Here is an example of the project file:
         ]
     },
     "redirects": [
-        { "url": "", "movedTo": "", "code": 301 }
+        { "url": "/hdoc-guide/some/path/to/previous-resource", "location": "/hdoc-guide/new/location/to-resource", "code": 301 }
+        { "url": "/hdoc-guide/some/path/to/deleted-resource", "code": 410 }
     ]
 }
 ```
