@@ -12,8 +12,8 @@ Once we have agreed to work with you on a specific document where there is subst
 ## Before you begin
 The following steps must be complete before you can edit and commit Hornbill documentation:
 1. Let us know the account name for your GitHub account, or register for a free [GitHub account](https://github.com/signup) if you do not already have one.
-2. Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you do not already have this installed. 
-3. Follow these instructions to [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git).
+2. Download and install [GitHub Desktop](https://desktop.github.com/) if you do not already have this installed. 
+3. Log into your GitHub account within GitHub Desktop.
 4. Download and install [Visual Studio Code](https://code.visualstudio.com/), or use any other text editor you are comfortable/familiar with.
 5. Download and install [Node.js LTS](https://nodejs.org/en/) (Minimum version: Node.js LTS v18 LTS).
 
@@ -40,3 +40,9 @@ Please remember to always validate your documentation before committing changes.
 
 Failing to validate your document will prevent any publishing because our publishing tools will run these validations first.  
 
+## Start Editing
+Once you have cloned a repository, in GitHub Desktop there should be an __Open In Visual Studio Code__ button, simply press that button, Visual Studio Code will open at the correct location. 
+
+Edit and commit changes using VS Code GitHub integration.  
+
+When you wish to commit your changes to the master repository, go to GitHub Desktop and press the "Push" 
