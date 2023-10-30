@@ -45,4 +45,4 @@ Once you have cloned a repository, in GitHub Desktop there should be an __Open I
 
 Edit and commit changes using VS Code GitHub integration.  
 
-When you wish to commit your changes to the master repository, go to GitHub Desktop and press the "Push" 
+When you wish to commit your changes to the master repository, go to GitHub Desktop and press the "Push Origin" button and your changes will be pushed to the repository master 
