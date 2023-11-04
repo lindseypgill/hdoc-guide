@@ -15,8 +15,10 @@ The folder structure of a HDocBook project is organized as a typical Node.js ass
 ``` md
   [some location on your disk]
    ├── <doc-id>
-   │   ├── hdocbook.json
-   │   └── **/* (any content goes in here)
+   │     ├── hdocbook.json
+   │     └── **/* (any content goes in here)
+   ├── _inline/   
+   │     └── **/* (any in-line content goes in here)
    ├── resources/   
    ├── hdocbook-project.json
    ├── package.json
