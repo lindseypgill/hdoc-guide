@@ -91,7 +91,8 @@ Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provide
 |Property|Description|
 |:---|:---|
 |`docId`|This is the document ID and should be set to the exact same name as the folder that the hdocbook.json file sits in.|
-|`title`|The title of this Book.|
+|`title`|The title of this book as it would be presented where there is no other context. For example, if the book is the API Reference for a product called Service Manager, then this title should be __Service Manager API Reference__|
+|`shortTitle`|The title of this as it would be presented in a product context, for example, there may be a list of books relating to a product called Service Manager that are presented grouped together pon the page.  As a context for Service Manager is already presented, then the short title would be __API Reference__|
 |`description`|A short description of the contents/purpose of this Book.|
 |`coverImage`|Fully-qualified [optional] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, a global generic image will be used.|
 |`audience`|[array] Defines the audience that this HDocBook will be published to.|
