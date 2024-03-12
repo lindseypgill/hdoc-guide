@@ -9,3 +9,13 @@ The include directive takes the following form...
 </code>
 
 (without the space between the two ['s) which will inject the content from the file `code-of-content.md` into your article
+
+It is also possible to include content from within the same document, this is useful, for example when you have content you might want to include in your document pages, but also want to include as _inline content for in-app product help. 
+
+The include directive takes the following form...
+
+<code>
+  [ [INCLUDE /esp-fundamentals/_inline/roadmap-incoming.md] ]
+</code>
+
+(without the space between the two ['s) which will inject the content from the file `roadmap-incoming.md` into your article
