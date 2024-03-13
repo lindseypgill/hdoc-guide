@@ -9,7 +9,7 @@ Contextual help can be presented at different levels too.  For example, if you h
 ![Field Level Help Example](/_books/hdoc-guide/hdocbook/images/field-level-help.png)
 
 ## Creating In-App Contextual Help & Guidance
-In-App content can be created in any book, by simply creating documents in the __/{<book_id}/_inline/__ folder.  Documents in this folder are treated differently to other documents in the following way. 
+In-App content can be created in any book, by simply creating documents in the `/{<book_id}/_inline/` folder.  Documents in this folder are treated differently to other documents in the following way. 
 
 - While adopting the same styling, documents in this folder will be rendered as a stand-alone page, and not within documentation site UI framework. This means when rendered, none of the navigation, search or any other docs.hornbill.com features will be available.
 - Articles in this folder cannot be added to the hdocbook navigation.
@@ -18,4 +18,4 @@ In-App content can be created in any book, by simply creating documents in the _
 - Articles in this folder WILL NOT be included in the sitemap and should not be subject to any site indexing.
 - Links within these Articles will always target a new browser window/tab. 
 
-When working with documents in development mode using the __hdoc serve__ command that tool will generate a pseudo entry at the bottom of the left-hand navigation so you can easily see/browse/view the in-app documents you have created in your HDocBook 
+When working with documents in development mode using the `hdoc serve` command that tool will generate a pseudo entry at the bottom of the left-hand navigation so you can easily see/browse/view the in-app documents you have created in your HDocBook 
