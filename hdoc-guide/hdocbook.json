@@ -3,7 +3,7 @@
   "title": "Hornbill Docs Contributor Guide",
   "description": "Information about developing and publishing documentation on the Hornbill Docs (docs.hornbill.com) website",
   "publicSource": "https://github.com/Hornbill-Docs/hdoc-guide",
-  "version": "1.4.13",
+  "version": "1.4.14",
   "productFamily": "hdocs",
   "tags": [
     "hdoc",
@@ -79,6 +79,10 @@
           {
             "text": "Using Links In Documentation",
             "link": "/hdoc-guide/hdocbook/using-links"
+          },
+          {
+            "text": "Document Page Redirects and Removals",
+            "link": "/hdoc-guide/hdocbook/document-redirects"
           },
           {
             "text": "Reusable Content",
